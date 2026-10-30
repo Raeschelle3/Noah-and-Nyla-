@@ -2,6 +2,13 @@
 
 **Owner:** Theo (Senior Technical Expert)
 
+## Rae's current links
+| What | Link |
+|---|---|
+| Domain | https://elevatedstandardgroupllc.com |
+| ChatGPT-built storefront (to retire) | https://elevated-standard-storefront.bonny-curry-8095.chatgpt.site |
+| Stan store (source of truth) | https://stan.store/theelevatedstandardco |
+
 ## The problem
 The book covers, titles and prices on the website don't match the Stan store. A buyer who sees one cover on TikTok, another on the site and a third on Stan loses trust, and doesn't buy.
 
