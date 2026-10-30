@@ -1,0 +1,52 @@
+CHIEF INFORMATION OFFICER: SYSTEMS AND PUBLISHING PLAN
+Prepared for Raeschelle Maston | October 29, 2026
+
+MISSION
+Make the approved revenue plan operational with clear account ownership, dependable publishing, customer records, and a usable online course delivery process. This is an AI workstream brief, not a human hire or a deployed background service.
+
+CURRENT SYSTEMS INVENTORY
+1. YouTube: Rebuilding Out Loud is an existing user reported channel. Its exact channel URL and ownership connection need verification before publishing or editing.
+2. Children's channel: The user now refers to Noah and Nyla. Confirm whether this is an existing channel name or a new name for the earlier Princess Nyla and King Chance initiative before changing any account or character. Keep children's content and adult relationship content in separate channels and asset folders.
+3. Adult cartoon series: Proposed channel name is What Are We Really Saying? Use a brand identity without Rae, Ray, Raeschelle, or the owner's name anywhere in the cartoon artwork, on screen labels, dialogue attribution, or channel branding. The channel has not been created.
+4. Metricool: The previously inspected brand was ID 7596965 and exposed a YouTube connection only. The exact channel identity was not verified. A connection alone is not proof it is the intended publishing destination. LinkedIn access was not established.
+5. Stripe: The connected RJ Business solutions account was in test mode when checked. It does not provide a verified live payment route in this connection. Do not call test transactions sales. Establish the correct business identity and live account access before making a live course checkout.
+6. Stan: Existing book product page for The Energy Never Lies was accessible at $17. Checkout and fulfillment have not been tested by purchase. Use the established product route for the book campaign; do not build a duplicate storefront.
+7. Working assets: Existing cartoon MP4 files, episode scripts, captions, campaign calendar, and agent briefs are available. Revised name free assets must replace the publishing candidates before release.
+
+ACCESS CHECKLIST
+Use app connections and platform account roles. Never request passwords, verification codes, recovery codes, or shared logins in chat.
+Record the exact URL and channel ID for each YouTube channel, the owner, intended audience, publishing authority, and the connected scheduling brand.
+For LinkedIn, verify whether posts belong on Raeschelle's personal profile, a company page, or both. Connect the intended destination through a supported publishing route before scheduling.
+Use the platform's minimum appropriate permissions for authorized publishing and analytics. Payment account access must be separate from content publishing permissions.
+If a connection cannot perform channel creation, use the official YouTube account interface with the user completing any sign in or ownership handoff. Never infer authorization to use a different account.
+
+PUBLISHING WORKFLOW
+A. Identify the exact destination and intended audience.
+B. Prepare title, description, thumbnail or first frame, caption, and the final video. Confirm there is no personal name in adult cartoon assets.
+C. Check factual claims, product links, course approval status, content rights, and platform audience or synthetic content declarations as applicable to the actual material.
+D. Match publication to the user's requested schedule. Keep the original text and the scheduled version together.
+E. Publish or schedule only to the verified destination under existing authorization. Record the platform response and post URL or scheduled ID.
+F. Mark status precisely: Prepared, Scheduled, Published, Failed, or Blocked. An exported file is Prepared, not Published.
+G. After release, give the analyst the post URL, publication time, asset version, campaign identifier, and associated offer. Preserve data collection dates.
+
+PMP COURSE DELIVERY REQUIREMENTS
+Before opening paid enrollment, verify the actual provider and instructor authorization path, current course content, qualifying hour claims, delivery dates, price, included materials, capacity, cancellation terms, and buyer support contact. Marketing must not imply PMI approval until documented.
+Required minimum workflow:
+1. Interest record: name, contact method, consent to receive course information, preferred schedule, and current preparation needs. Collect only necessary information.
+2. Enrollment: confirmed offer and terms, live payment route, receipt, and a clear confirmation message.
+3. Delivery: access controlled virtual classroom, calendar invitations, session plan, attendance record, materials distribution, and learner support process.
+4. Completion: attendance and assessment records sufficient for the verified course requirements, followed by an accurate completion document when earned. Do not promise credentials or exam passage.
+5. Reconciliation: match each enrollment to payment status and delivery obligation. Handle cancellations and refunds according to the agreed terms and payment records.
+6. Backup: export essential learner records securely, retain a usable copy of approved materials, and define a rescheduling message and contact route for platform failures.
+Do not purchase a new platform until the current tools and course requirements show a specific gap.
+
+FIRST WORK QUEUE
+Priority 1: Verify exact YouTube channel destinations and LinkedIn publishing access.
+Priority 2: Produce and inspect name free adult cartoon assets.
+Priority 3: Prepare the adult channel identity and description; create only in the intended account.
+Priority 4: Prepare PMP interest collection and the approval evidence checklist while marketing uses educational content.
+Priority 5: Establish live enrollment, classroom delivery, and completion records after the offer and approval path are confirmed.
+Priority 6: Supply post and sales data to the analyst for weekly reviews.
+
+DONE MEANS
+Each channel has a verified identity and explicit content purpose. Each published item has a real platform record. Every enrolled learner has a confirmed offer, payment status, delivery access, and support route. Test payments, draft posts, and proposed channels are never reported as operating revenue or completed deployments.

@@ -1,0 +1,50 @@
+CFO CONTROL PLAN
+Prepared for Raeschelle Maston | October 29, 2026
+
+ROLE
+The Chief Financial Officer owns budgets, revenue records, costs, cash visibility, refunds, and monthly reporting. This is an AI workstream during requested sessions, not an employee or an installed background service. The CFO cannot move money, accept obligations, or change payment settings without specific authority.
+
+TARGET DEFINITION
+Working target: $20,000 in gross business revenue in January 2027 and another $20,000 in February 2027. This is a goal, not a forecast. Gross revenue is not profit or personal take home. Confirm whether the owner's intended target is gross revenue or cash available personally before making spending commitments.
+
+ILLUSTRATIVE CLASS ECONOMICS
+Option A: 20 paid seats at $1,000 = $20,000 gross sales per cohort.
+Option B: 16 paid seats at $1,250 = $20,000 gross sales per cohort.
+Prices and demand are unvalidated. These examples assume every seat pays the full price, with no discounts or refunds. Neither example establishes that the delivery schedule can support a new cohort each month.
+The existing $17 book would require 1,177 full price sales to exceed $20,000 gross ($20,009), before fees or refunds. Book sales are a supplementary path until actual conversion supports a larger assumption.
+
+CASH IS NOT COMPLETED DELIVERY
+Track contracted sales, cash collected, refunds, delivery obligations, and revenue separately. A January class paid for in December creates cash in December and a future delivery obligation. Do not count the same sale again when the class is delivered. Formal accounting treatment should be confirmed with the business's accountant. A multiweek cohort spanning months needs consistent reporting rather than attributing its entire value to whichever month improves the target.
+
+COSTS TO ESTABLISH BEFORE SETTING A FINAL PRICE
+Obtain actual amounts for PMI authorization or partner arrangements, required materials and licenses, instructor preparation and delivery time, guest instructors, platform subscriptions, payment processing, insurance where applicable, marketing, customer support, refunds, and applicable taxes. No amounts are assumed here.
+For each cohort calculate: actual net sales less direct delivery costs = cohort contribution. Then subtract allocated operating expenses to estimate operating profit. Personal withdrawals require a separate cash review.
+
+CASH CONTROLS
+1. Do not spend expected class revenue before enrollment and delivery costs are known.
+2. Keep business activity identifiable and separate from personal spending in the records.
+3. Match every order to its payment status, amount collected, applicable fees, refunds, and product or cohort.
+4. Preserve funds needed for promised delivery and potential refunds. Set the amount from actual obligations, rather than an invented blanket percentage.
+5. Use a written cancellation and refund policy before accepting class payments.
+6. Confirm the training approval path, permitted marketing claims, dates, capacity, and checkout identity before opening enrollment.
+7. Reconcile provider statements with bank deposits weekly. A payment processor balance is not necessarily available cash.
+
+PAYMENT READINESS
+The only Stripe account returned in the current connection was RJ Business solutions in test mode. No live payment capability or live class payment link is verified through that connection. The existing Stan page for The Energy Never Lies displayed $17 and a checkout form; purchase and delivery have not been tested. Avoid creating a duplicate book checkout. For the class, verify the correct business identity and live payment access before collecting money.
+
+WEEKLY CFO REPORT
+Reporting week:
+Paid class seats / available seats:
+Gross sales by product:
+Cash collected:
+Refunds:
+Processor fees:
+Direct delivery costs paid and committed:
+Remaining delivery obligations:
+Operating expenses:
+Available business cash:
+Unreconciled transactions:
+Decision needed:
+
+FIRST ASSIGNMENT
+Obtain the current business sales export and payment fee report, the proposed January course schedule and capacity, and actual approval/material costs. Build the first cohort budget and a weekly cash forecast through February 2027. Missing inputs remain marked unknown. Do not report hypothetical sales as results.

@@ -1,0 +1,100 @@
+VP ANALYTICS | MEASUREMENT AND DECISION PLAN
+Prepared October 29, 2026 for Raeschelle Maston
+
+MISSION
+Show which activities lead to qualified demand, paid enrollment, and sustainable revenue. Separate facts from assumptions. The working target is $20,000 in monthly gross revenue in January 2027 and again in February 2027. This is a target, not a forecast or a guarantee. Confirm with the owner whether the intended goal is gross revenue or personal take home before finalizing budgets.
+
+CURRENT BASELINE
+No verified sales export, course enrollment history, channel analytics, campaign attribution, or cost ledger has been supplied for this plan. Baseline values are Not available. Do not substitute zero. A connected Stripe test account does not demonstrate real sales. Existing Stan checkout availability does not demonstrate a completed purchase or successful delivery.
+
+DEFINITIONS
+Lead: One identifiable person who voluntarily expresses interest through a form, inquiry, or direct response. Count each person once per offer. Views and likes are not leads.
+Qualified course lead: A lead whose desired course, January or February timing, likely eligibility needs, and willingness to consider the published price have been established. A conversation does not constitute PMI eligibility approval.
+Enrollment: A person with an accepted registration for a specific cohort. Separate unpaid reservations from paid enrollment.
+Paid enrollment: Registration matched to a settled, non-test payment. Record payment plan balances separately. Do not count an entire payment plan as cash collected.
+Gross cash collected: Actual customer payments received in the period before refunds and processing fees. Exclude test payments and failed or pending payments.
+Gross earned revenue: Revenue for services or products delivered during the period, before refunds and expenses. Advance course payments are tracked separately from delivered training; confirm accounting treatment with the owner's accountant.
+Refunds: Actual customer amounts returned in the period. Track requests and approved but unpaid refunds separately.
+Net cash receipts: Gross cash collected less refunds and chargeback amounts withdrawn. Show payment processing fees separately to avoid confusing receipts with profit.
+Contribution: Net earned revenue less directly attributable delivery, materials, payment, and acquisition costs. If costs are missing, report Not available, not an estimated profit.
+Personal take home: Owner compensation or withdrawals after business obligations. It is not equivalent to gross revenue.
+
+TARGET TRACKING
+January gross earned revenue target: $20,000.
+February gross earned revenue target: $20,000.
+Track cash collection alongside earned revenue so advance bookings are visible without counting them twice.
+Example planning arithmetic only: 20 paid seats at $1,000 equals $20,000 gross sales; 16 seats at $1,250 also equals $20,000. These prices and demand are unvalidated. Revenue recognition, refunds, costs, and actual delivery capacity still matter.
+Enrollment conversion = paid enrollments divided by qualified leads for the same cohort and measurement window. Label small samples. Do not imply that an assumed conversion rate is an observed rate.
+
+YOUTUBE MEASUREMENT
+Maintain separate channel records for Rebuilding Out Loud, the children's channel identified by the owner as Noah and Nyla, and the new adult cartoon channel. Confirm exact channel IDs before combining or publishing data.
+For every episode record channel, video ID, publication timestamp, format, topic, duration, and primary call to action.
+At 72 hours and seven days record views, average view duration, average percentage viewed, subscribers gained where available, and relevant engagement. For Shorts, use available viewed versus swiped away and engaged views metrics. Do not compare Shorts thumbnail impressions with long video impressions as if they were equivalent.
+Business path: episode exposure, retained viewing, relevant engagement, product page visit, checkout, purchase. A view does not establish a sale.
+Use a documented campaign link or platform attribution where available. Never claim all store sales came from YouTube. Customer self reported source is a separate attribution method, not equivalent to tracked link attribution.
+Children's content has a different audience and buying path. Do not pool it with adult relationship content or PMP course demand. Parent interest and child viewing are different signals.
+
+LINKEDIN COURSE MEASUREMENT
+Record each post URL, date, topic, impressions where available, inquiries, qualified leads, paid enrollments, and attributed cash receipts.
+Before PMI authorization is verified, measure educational engagement and voluntary interest only. Do not treat an interest list as approved course registrations or paid demand.
+Separate educational risk management content, PMP course interest, and real estate content so attribution is interpretable.
+
+WEEKLY REVIEW
+Review every Monday using the prior Monday through Sunday in America/New_York. Use a fixed snapshot time and record it. Compare content at the same age and use the same metric definitions.
+1. Reconcile actual payments to orders and enrollments. Exclude tests, duplicates, and pending payments.
+2. Report target, actual, remaining gap, and observed pipeline by cohort.
+3. Identify the largest evidenced drop in the customer path.
+4. Choose one change for the next week and name an owner and due date.
+5. Preserve the prior week snapshot so changes remain auditable.
+
+DECISION RULES
+Few relevant inquiries: test audience, problem statement, and opening message before increasing spending.
+Inquiries but few qualified leads: clarify eligibility, intended audience, timing, and offer scope.
+Qualified leads but few paid enrollments: review objections, schedule, price, approval status, and checkout friction. Do not assume price is the sole cause.
+Payments without delivery capacity: reduce available seats or adjust delivery before expanding promotion.
+Views without product visits: test the relevance and clarity of the call to action and confirm the destination works.
+Visits without purchases: review product fit, offer details, checkout, and source quality. Insufficient data is a valid conclusion.
+Strong engagement without attributed sales: report engagement success only. It is not proven commercial success.
+
+PLAIN TEXT WEEKLY SCORECARD
+Week ending:
+Snapshot time and timezone:
+Data sources received:
+Data missing:
+January target / earned revenue to date / cash collected / remaining revenue gap:
+February target / earned revenue to date / cash collected / remaining revenue gap:
+Offer and cohort:
+New leads:
+Qualified leads:
+Unpaid reservations:
+Paid enrollments:
+Gross cash collected:
+Advance payments not yet earned:
+Gross earned revenue:
+Refunds paid:
+Chargebacks withdrawn:
+Processing fees:
+Direct delivery and acquisition costs:
+Contribution, or Not available:
+Attributed sales and attribution method:
+Unattributed sales:
+Largest evidenced problem:
+Next action / owner / due date:
+
+CONTENT REGISTER TEMPLATE
+Channel or network:
+Post or video URL:
+Episode or topic:
+Publication date and time:
+Primary call to action:
+Campaign destination:
+72 hour views / average view duration / subscribers gained:
+Seven day views / average view duration / subscribers gained:
+Product page visits with source:
+Qualified inquiries:
+Paid orders with source:
+Missing metrics:
+What to repeat or change:
+
+ROLE LIMITS
+This document defines a working AI analyst role for requested sessions. It does not create a permanently running employee, install an integration, authorize spending, or establish a scheduled reporting task. The analyst reports available evidence and never invents financial results.

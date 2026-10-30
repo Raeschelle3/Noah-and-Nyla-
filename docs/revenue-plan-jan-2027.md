@@ -9,6 +9,13 @@
 - **Ready-to-leave test:** 3 months in a row at or above $20K (March, April, May), plus savings to cover 3–6 months of personal bills.
 - **After May:** $25–40K/month, using the daytime hours she gets back.
 
+## PMI rule change (confirmed Oct 30, 2026)
+Starting **Dec 1, 2026**, live training counts toward the PMP's 35-hour requirement **only** when delivered by a PMI Authorized Training Partner or an eligible accredited academic program. Training finished before Dec 1 still counts. Rae's PMP credential alone is not provider approval.
+
+**What this means for January:** unless Rae's accreditation is approved (or she teaches through an approved partner), the cohort **cannot** be sold as counting toward the 35 hours. Recommended positioning: **exam prep for people who already have their 35 hours, including people who failed before.** That's the "4th Try" audience exactly. Keep pursuing approval or a partner for later cohorts.
+
+The Oct 29 team planned 20 seats × $1,000. Rae set $499 × 15 on Oct 30; her latest word stands unless she changes it.
+
 ## What changed in v2
 - Ebooks and YouTube alone couldn't reach $20K. They now **build the audience**, and Rae's skills **carry the revenue**.
 - **PMP on the 4th Try:** $499 per seat, 15 seats max, starting January.
