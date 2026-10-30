@@ -22,10 +22,10 @@
 | PMP on the 4th Try cohort | 15 | $499 (set by Rae) | $7,485 |
 | PMP 1:1 coaching | 4 | $497 | $1,988 |
 | Customer service workshops / audits (small businesses, clinics, churches, teams) | 4 | $2,000 | $8,000 |
-| Georgia real estate flashcards | 60 | $27 | $1,620 |
+| Georgia real estate flashcards (300+ cards) | 95 | $17 (see competitor scan) | $1,615 |
 | Ebooks (4 featured on Stan) | 50 | ~$20 | $1,000 |
-| Real estate referrals | 0 | — | $0 (starts once broker + partners say yes) |
-| **Total** | | | **$20,093** |
+| Real estate referrals | 0 | — | $0 (starts once Mike McCoy + partners say yes) |
+| **Total** | | | **$20,088** |
 
 Notes:
 - **The PMP cohort is a one-time payment.** To repeat that $7,485, open a new cohort every 6–8 weeks or add a recorded version.

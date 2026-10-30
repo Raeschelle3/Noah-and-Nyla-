@@ -8,7 +8,7 @@
 - Leaving corporate: May 30, 2027.
 
 ## Still open
-1. **Brokerage name** (needed on the website and in the emails).
+1. ~~Brokerage name~~ Mike McCoy, The Real McCoy (mikemccoy@callrealmccoy.com). Rae keeps 90%, broker 10%. Draft email in Rae's Gmail, waiting on her OK to send.
 2. **Broker's answer:** online marketing allowed? Referral split?
 3. **Flashcard delivery on Stan:** a private web link (best on a phone) or a PDF download?
 4. **Your 4 Stan items:** are these right: free guide, *I Almost Lost Her*, PMP seat, flashcards?
