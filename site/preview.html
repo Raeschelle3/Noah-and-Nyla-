@@ -1,0 +1,222 @@
+<title>The Elevated Standard</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Raeschelle Maston: PMP exam prep, Georgia real estate, customer service workshops, books and free guides.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Newsreader:opsz,wght@6..72,400;6..72,500&family=IBM+Plex+Mono:wght@500&display=swap">
+<style>
+/* Layout: one column front door. Hero thesis, four doors to the four businesses, Rae's service standard, then books. */
+:root {
+  --paper: #F5F7F6;
+  --ink: #15211F;
+  --muted: #55625F;
+  --line: #CBD3D0;
+  --surface: #FFFFFF;
+  --accent: #0E5A4B;
+  --accent-ink: #FFFFFF;
+  --gold: #9A6F17;
+  --draft: #FFF3CF;
+  --draft-ink: #5A4300;
+  --display: "Bricolage Grotesque", "Avenir Next", "Segoe UI", system-ui, sans-serif;
+  --body: "Newsreader", Georgia, "Times New Roman", serif;
+  --mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #0F1715; --ink: #E6ECEA; --muted: #9FADA9; --line: #2C3A37; --surface: #16211F;
+    --accent: #5BBFA4; --accent-ink: #08201A; --gold: #DDB25A; --draft: #3A3014; --draft-ink: #F3DFA6;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #0F1715; --ink: #E6ECEA; --muted: #9FADA9; --line: #2C3A37; --surface: #16211F;
+  --accent: #5BBFA4; --accent-ink: #08201A; --gold: #DDB25A; --draft: #3A3014; --draft-ink: #F3DFA6;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--paper); color: var(--ink); font-family: var(--body); font-size: 1.125rem; line-height: 1.6; }
+a { color: inherit; }
+a:focus-visible, .btn:focus-visible { outline: 3px solid var(--gold); outline-offset: 3px; }
+.wrap { max-width: 68rem; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+.label { font-family: var(--mono); font-size: 0.75rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); }
+h1, h2, h3 { font-family: var(--display); line-height: 1.1; text-wrap: balance; margin: 0; }
+h2 { font-size: clamp(1.75rem, 4vw, 2.5rem); font-weight: 700; }
+h3 { font-size: 1.35rem; font-weight: 700; }
+p { margin: 0; }
+
+.draft { background: var(--draft); color: var(--draft-ink); font-family: var(--mono); font-size: 0.8rem; }
+.draft .wrap { padding-block: 10px; }
+
+header .wrap { display: flex; justify-content: space-between; align-items: center; gap: 16px; padding-block: 20px; flex-wrap: wrap; }
+.brand { font-family: var(--display); font-weight: 700; font-size: 1.1rem; text-decoration: none; }
+.brand span { color: var(--accent); }
+nav { display: flex; gap: 20px; flex-wrap: wrap; font-family: var(--display); font-size: 0.95rem; }
+nav a { text-decoration: none; color: var(--muted); }
+nav a:hover { color: var(--ink); }
+
+.hero .wrap { display: grid; gap: 28px; padding-block: 48px 64px; }
+.hero h1 { font-size: clamp(2.6rem, 8vw, 5.2rem); font-weight: 700; letter-spacing: -0.02em; max-width: 14ch; }
+.hero h1 em { font-style: normal; color: var(--accent); }
+.hero .lede { font-size: 1.3rem; max-width: 36rem; color: var(--muted); }
+.level { display: flex; align-items: center; gap: 12px; font-family: var(--mono); font-size: 0.8rem; color: var(--muted); max-width: 30rem; }
+.level::before, .level::after { content: ""; height: 1px; background: var(--line); flex: 1; }
+.level b { color: var(--gold); font-weight: 500; }
+.actions { display: flex; gap: 12px; flex-wrap: wrap; }
+.btn { display: inline-block; font-family: var(--display); font-weight: 500; font-size: 1rem; padding: 14px 22px; border-radius: 4px; text-decoration: none; border: 1.5px solid var(--accent); }
+.btn.solid { background: var(--accent); color: var(--accent-ink); }
+.btn.line { color: var(--accent); }
+.btn:hover { filter: brightness(1.08); }
+
+.doors { border-top: 1px solid var(--line); }
+.doors .wrap { padding-block: 56px; display: grid; gap: 32px; }
+.door-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 15rem), 1fr)); border-top: 2px solid var(--ink); }
+.door { display: grid; grid-template-rows: auto auto 1fr auto; gap: 12px; padding: 24px 20px 28px 0; border-bottom: 1px solid var(--line); min-width: 0; }
+.door + .door { padding-left: 20px; border-left: 1px solid var(--line); }
+@media (max-width: 62rem) { .door + .door { border-left: 0; padding-left: 0; } }
+.door p { color: var(--muted); }
+.door .facts { font-family: var(--mono); font-size: 0.78rem; color: var(--gold); letter-spacing: 0.04em; }
+.door a { font-family: var(--display); font-weight: 500; color: var(--accent); text-decoration: none; }
+.door a:hover { text-decoration: underline; }
+
+.standard { background: var(--surface); border-block: 1px solid var(--line); }
+.standard .wrap { padding-block: 56px; display: grid; gap: 28px; }
+.rules { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 17rem), 1fr)); gap: 28px; list-style: none; margin: 0; padding: 0; counter-reset: rule; }
+.rules li { counter-increment: rule; display: grid; gap: 6px; }
+.rules li::before { content: "Standard " counter(rule); font-family: var(--mono); font-size: 0.75rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--gold); }
+.rules strong { font-family: var(--display); font-size: 1.2rem; }
+.rules span { color: var(--muted); }
+
+.books .wrap { padding-block: 56px; display: grid; gap: 28px; }
+.feature { display: grid; grid-template-columns: minmax(0, 11rem) minmax(0, 1fr); gap: 28px; align-items: center; }
+@media (max-width: 36rem) { .feature { grid-template-columns: 1fr; } }
+.cover { aspect-ratio: 2 / 3; max-width: 100%; width: 11rem; background: var(--accent); color: var(--accent-ink); display: flex; flex-direction: column; justify-content: space-between; padding: 18px 16px; border-radius: 2px; box-shadow: 0 10px 30px -12px rgba(0,0,0,0.45); }
+.cover b { font-family: var(--display); font-size: 1.45rem; line-height: 1.05; }
+.cover small { font-family: var(--mono); font-size: 0.62rem; letter-spacing: 0.1em; text-transform: uppercase; opacity: 0.85; }
+.feature-text { display: grid; gap: 14px; min-width: 0; }
+.guides { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 14rem), 1fr)); gap: 16px; }
+.guide { border: 1px solid var(--line); border-radius: 4px; padding: 18px; display: grid; gap: 6px; text-decoration: none; background: var(--surface); }
+.guide:hover { border-color: var(--accent); }
+.guide b { font-family: var(--display); font-size: 1.05rem; }
+.guide span { color: var(--muted); font-size: 0.98rem; }
+.guide em { font-style: normal; font-family: var(--mono); font-size: 0.75rem; color: var(--accent); letter-spacing: 0.06em; }
+
+.about .wrap { padding-block: 56px; display: grid; gap: 16px; max-width: 46rem; margin: 0 auto; }
+.about p { font-size: 1.2rem; }
+
+footer { border-top: 1px solid var(--line); }
+footer .wrap { padding-block: 28px 40px; display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; color: var(--muted); font-size: 0.95rem; }
+</style>
+
+<div class="draft"><div class="wrap">DRAFT for Rae's review · links go to the Stan store for now · real book covers come from Stan before launch</div></div>
+
+<header>
+  <div class="wrap">
+    <a class="brand" href="#top">The Elevated <span>Standard</span></a>
+    <nav aria-label="Main">
+      <a href="#work-with-rae">Work with Rae</a>
+      <a href="#books">Books &amp; free guides</a>
+      <a href="#about">About</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="wrap">
+      <p class="label">Raeschelle Maston · PMP · Licensed real estate agent</p>
+      <h1>Raise the bar. <em>Get it done.</em></h1>
+      <p class="lede">I help people pass the exam, buy the house, fix the customer experience, and rebuild. I bring straight answers and fast follow-through.</p>
+      <p class="level"><b>4th try</b> how many attempts my PMP took. I'll help you pass on yours.</p>
+      <div class="actions">
+        <a class="btn solid" href="https://stan.store/theelevatedstandardco" target="_blank" rel="noopener">Join the January PMP group</a>
+        <a class="btn line" href="#books">Get a free guide</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="doors" id="work-with-rae">
+    <div class="wrap">
+      <div>
+        <p class="label">Work with Rae</p>
+        <h2>Pick the door you need.</h2>
+      </div>
+      <div class="door-grid">
+        <article class="door">
+          <p class="facts">15 seats · weeknights · Jan 2027</p>
+          <h3>PMP on the 4th Try</h3>
+          <p>A small PMP exam-prep study group, led by someone who knows what it takes to keep going after a fail.</p>
+          <a href="https://stan.store/theelevatedstandardco" target="_blank" rel="noopener">Reserve a seat →</a>
+        </article>
+        <article class="door">
+          <p class="facts">Georgia · buyers &amp; sellers</p>
+          <h3>Buy or sell a home</h3>
+          <p>Clear steps, honest numbers, and fast replies. Start with a 15-minute conversation.</p>
+          <a href="https://stan.store/theelevatedstandardco" target="_blank" rel="noopener">Book a call →</a>
+        </article>
+        <article class="door">
+          <p class="facts">For small businesses &amp; teams</p>
+          <h3>Customer service workshops</h3>
+          <p>I find where customers get let down and train your team to fix it. Live workshops and service audits.</p>
+          <a href="https://stan.store/theelevatedstandardco" target="_blank" rel="noopener">Ask about a workshop →</a>
+        </article>
+        <article class="door">
+          <p class="facts">Digital · study on your phone</p>
+          <h3>Real estate exam flashcards</h3>
+          <p>The terms and math that show up on the licensing exam, built for studying in five-minute breaks.</p>
+          <a href="https://stan.store/theelevatedstandardco" target="_blank" rel="noopener">Get the flashcards →</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="standard">
+    <div class="wrap">
+      <div>
+        <p class="label">How I work</p>
+        <h2>The standard you can expect.</h2>
+      </div>
+      <ol class="rules">
+        <li><strong>A reply within one business day.</strong><span>Every message, every time. Being left waiting is where bad service starts.</span></li>
+        <li><strong>The truth, even when it's hard.</strong><span>You get the real picture, so your decisions are your own.</span></li>
+        <li><strong>A fix, not an excuse.</strong><span>If something goes wrong, I bring the solution with the news.</span></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="books" id="books">
+    <div class="wrap">
+      <div>
+        <p class="label">Books &amp; free guides</p>
+        <h2>Start with the one that matters most.</h2>
+      </div>
+      <div class="feature">
+        <div class="cover" role="img" aria-label="Placeholder cover for I Almost Lost Her"><small>Raeschelle Maston</small><b>I Almost Lost Her</b><small>Cover from Stan</small></div>
+        <div class="feature-text">
+          <h3>I Almost Lost Her</h3>
+          <p>My most important book, and the best place to start.</p>
+          <div class="actions"><a class="btn solid" href="https://stan.store/theelevatedstandardco" target="_blank" rel="noopener">Read it</a></div>
+        </div>
+      </div>
+      <div class="guides">
+        <a class="guide" href="https://stan.store/theelevatedstandardco" target="_blank" rel="noopener"><em>Free guide</em><b>Career &amp; Corporate</b><span>Getting in, moving up, and knowing when to leave.</span></a>
+        <a class="guide" href="https://stan.store/theelevatedstandardco" target="_blank" rel="noopener"><em>Free guide</em><b>Health &amp; Living</b><span>Practical guides for your health and everyday life.</span></a>
+        <a class="guide" href="https://stan.store/theelevatedstandardco" target="_blank" rel="noopener"><em>Free guide</em><b>Travel &amp; Lifestyle</b><span>Travel ideas, with a focus on Jamaica.</span></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="wrap">
+      <p class="label">About Rae</p>
+      <h2>I'm Raeschelle Maston.</h2>
+      <p>I'm a certified Project Management Professional, a licensed real estate agent, and an author. I love helping people, I can't stand poor customer service, and I move fast to find solutions. Whether you're studying, buying, building a team, or rebuilding your life, you'll get my full attention and a clear plan.</p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 Elevated Standard Group LLC</span>
+    <span>Real estate services through [brokerage name]</span>
+  </div>
+</footer>
