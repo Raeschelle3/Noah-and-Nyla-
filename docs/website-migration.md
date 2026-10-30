@@ -5,7 +5,7 @@
 ## Rae's current links
 | What | Link |
 |---|---|
-| Main website (GoDaddy) | https://elevatedstandardgroupllc.com |
+| Main website (domain at GoDaddy, hosted on Netlify) | https://elevatedstandardgroupllc.com |
 | ChatGPT-built storefront (Rae decided Oct 30: close it out) | https://elevated-standard-storefront.bonny-curry-8095.chatgpt.site |
 | Stan store (source of truth) | https://stan.store/theelevatedstandardco |
 
