@@ -1,9 +1,18 @@
 # Open Questions for Rae
 
-1. ~~Website and Stan links~~ received Oct 30 (see website-migration.md). Main site is hosted on GoDaddy; ChatGPT storefront is being closed. Still needed: confirm no live links (Stan, TikTok, YouTube bios) point to the ChatGPT storefront.
-2. Does Noah & Nyla have its own Stan store?
-3. **Current numbers:** email list size; followers on each channel; Stan sales so far; current monthly revenue.
-4. **What We Carry:** is it for kids, teens or adults? Which brand does it belong to? Is anything made yet (characters, script, pilot)?
-5. **Ebooks:** which are finished and live on Stan, and which are still in progress?
-6. **Gap-closer:** ebooks + YouTube alone probably won't reach $20K in January. Keep the PMP cohort as a bridge, pre-sell in December, add an ad budget, or move the date?
-7. **Calendar:** which calendar should the Monday 8 AM meeting go on (Google, Outlook, iPhone)?
+## Answered
+- Website: elevatedstandardgroupllc.com (domain on GoDaddy, paid for 3 years). Close the ChatGPT site.
+- PMP: $499 per seat, 15 max, starting January.
+- Flashcards: Georgia real estate exam, phone-friendly, sold on Stan.
+- Real estate: trusted advisor and referrals, not buyer/seller work. Broker approval needed first.
+- Leaving corporate: May 30, 2027.
+
+## Still open
+1. **Brokerage name** (needed on the website and in the emails).
+2. **Broker's answer:** online marketing allowed? Referral split?
+3. **Flashcard delivery on Stan:** a private web link (best on a phone) or a PDF download?
+4. **Your 4 Stan items:** are these right: free guide, *I Almost Lost Her*, PMP seat, flashcards?
+5. **Service promises on the website:** approve "reply within one business day"?
+6. **Numbers:** email list size, followers on each channel, Stan sales so far.
+7. **What We Carry:** for kids, teens or adults? Anything made yet?
+8. **Calendar:** which one should the Monday meeting go on?

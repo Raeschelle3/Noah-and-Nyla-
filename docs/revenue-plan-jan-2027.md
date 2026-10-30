@@ -1,93 +1,58 @@
-# Revenue Plan: $20K/month from January 2027
+# Revenue Plan: $20K/month from January 2027 → $25–40K/month after May 30
 
-**Owner:** Maggie (CRO) · **Focus Rae chose:** ebooks + YouTube brands
-**Targets:** Jan 2027 $20,000 · Feb $22,000 · Mar $24,200 (10% growth is a placeholder until Rae sets it)
+**Owner:** Maggie (CRO) · **Updated:** Oct 30, 2026 (v2, after Rae's direction)
 
----
+## Key dates
+- **January 2027:** $20,000 month.
+- **February–May:** keep growing (Feb $22,000 · Mar $24,200 · Apr ~$25,000 · May ~$27,000; placeholders until Rae sets them).
+- **May 30, 2027:** Rae leaves her corporate job.
+- **Ready-to-leave test:** 3 months in a row at or above $20K (March, April, May), plus savings to cover 3–6 months of personal bills.
+- **After May:** $25–40K/month, using the daytime hours she gets back.
 
-## 1. The honest math (read this first)
+## What changed in v2
+- Ebooks and YouTube alone couldn't reach $20K. They now **build the audience**, and Rae's skills **carry the revenue**.
+- **PMP on the 4th Try:** $499 per seat, 15 seats max, starting January.
+- **Real estate:** Rae is a **trusted advisor and connector**, not a buyer's or seller's agent. She refers people to partner agents for a referral fee paid through her brokerage. This waits on (1) her broker's OK and (2) partner agents saying yes.
+- **New product:** Georgia real estate exam flashcards, phone-friendly, sold on Stan.
+- **Speaking** is now in: customer service workshops and talks.
 
-$20K in one month from ebooks means order volume like this:
-
-| Average order | Orders needed in January | Per day |
-|---|---|---|
-| $20 (single ebook) | 1,000 | ~32 |
-| $40 (ebook + workbook) | 500 | ~16 |
-| $97 (signature bundle) | ~206 | ~7 |
-
-A launch to a warm email list typically converts somewhere around 1–3% of subscribers. That rate is an assumption; Benjamin will replace it with Rae's real numbers. At 2%, 500 orders needs about **25,000 engaged subscribers or followers who see the offer**. We don't know the current numbers yet (see open questions).
-
-**YouTube will not pay much by January.** Ad revenue requires the YouTube Partner Program: 1,000 subscribers plus 4,000 watch hours in 12 months, *or* 10M Shorts views in 90 days. **Noah & Nyla is "made for kids,"** so it gets no memberships, no comments, and lower ad rates. Plan YouTube as the **audience engine that sells ebooks**, not as January income.
-
-**Bottom line:** ebooks + YouTube alone will probably fall short of $20K in January unless the audience is already large. The plan below gets the most out of both and shows the gap-closers Rae can choose from.
-
----
-
-## 2. Offer ladder (proposed prices; Maggie checks competitors before launch)
-
-### Rae's books brand (Stan store)
-| Step | Offer | Price | Job |
+## January 2027 plan
+| Stream | Units | Price (proposed unless noted) | Revenue |
 |---|---|---|---|
-| Free | One free guide per collection (Career & Corporate, Health & Living, Travel & Lifestyle) | $0 | Collect emails |
-| 1 | Single ebook | $17–27 | First purchase |
-| 2 | Collection bundle (3–4 books in one collection) | $47 | Raise average order |
-| 3 | **Signature: "I Almost Lost Her" + Rebuilding workbook + private video lessons** | $97 | Main money-maker |
-| 4 | Everything bundle (all books + future releases) | $147 | Superfans and gifts |
+| PMP on the 4th Try cohort | 15 | $499 (set by Rae) | $7,485 |
+| PMP 1:1 coaching | 4 | $497 | $1,988 |
+| Customer service workshops / audits (small businesses, clinics, churches, teams) | 4 | $2,000 | $8,000 |
+| Georgia real estate flashcards | 60 | $27 | $1,620 |
+| Ebooks (4 featured on Stan) | 50 | ~$20 | $1,000 |
+| Real estate referrals | 0 | — | $0 (starts once broker + partners say yes) |
+| **Total** | | | **$20,093** |
 
-### Noah & Nyla (separate brand and store)
-| Step | Offer | Price |
-|---|---|---|
-| Free | Free read-along mini story (phone-friendly) | $0 |
-| 1 | Digital storybook / learning ebook | $7–12 |
-| 2 | Bundle of 5 + bonus songs/video links | $29 |
-| 3 | Classroom/daycare/church license (bulk) | $99–199 |
+Notes:
+- **The PMP cohort is a one-time payment.** To repeat that $7,485, open a new cohort every 6–8 weeks or add a recorded version.
+- **Workshops are the swing line.** Each one sold or missed moves the month by $2,000.
+- **Referral math (estimate):** on a $350K home, the partner agent's 3% is $10,500. A 25% referral fee is about $2,625 paid to Rae's brokerage, and Rae keeps her split of that. Referral fees must go through her broker.
+- Maggie checks competitor prices before launch: PMP prep groups, Georgia exam flashcard apps, and customer service trainers.
 
-### What We Carry (cartoon characters, real scenarios)
-New series. Format and audience to be confirmed by Rae (see open questions). Proposed: YouTube episodes, each tied to a companion ebook/guide on the same topic.
+## The plan by month
+| Month | Focus |
+|---|---|
+| **Nov 2026** | Website live, Stan cut down to 4 items, flashcards on sale, PMP waitlist open, broker + partner emails sent |
+| **Dec 2026** | PMP pre-sales (goal: all 15 seats), book 4 January workshops, first flashcard sales |
+| **Jan 2027** | Cohort starts, 4 workshops, coaching. **$20K** |
+| **Feb–Mar** | Second PMP cohort, workshop referrals turn into repeat clients, first real estate referral |
+| **Apr–May** | Hit the ready-to-leave test; line up what the extra daytime hours go to after May 30 |
+| **Jun 2027+** | Daytime workshops and corporate training, more cohorts, referral network. $25–40K |
 
----
+## Stan store: cut it down to 4
+Today, 10–15 books compete for attention, so people pick nothing. Show 4 items and hide the rest (or group them into one bundle):
+1. Free guide (collects emails)
+2. *I Almost Lost Her*
+3. PMP on the 4th Try seat ($499)
+4. Georgia real estate flashcards
 
-## 3. January scenario: ebooks + YouTube only (draft; numbers TBD)
+## Tracking
+Every sale is tagged to the post, email or referral that produced it. Benjamin reports weekly: revenue vs. target, PMP seats sold, workshops booked, flashcard sales, email signups.
 
-| Stream | Units | Price | Revenue |
-|---|---|---|---|
-| Signature bundle ($97) | 60 | $97 | $5,820 |
-| Collection bundles | 80 | $47 | $3,760 |
-| Single ebooks | 150 | $22 | $3,300 |
-| Everything bundle | 15 | $147 | $2,205 |
-| Noah & Nyla ebooks + bundles | 100 | ~$15 | $1,500 |
-| Noah & Nyla bulk licenses | 5 | $150 | $750 |
-| YouTube (if monetized) | – | – | $0–300 |
-| **Total** | | | **$17,335–17,635** |
-
-This is a **stretch** scenario and assumes the audience growth in Section 4 actually happens. Benjamin will re-score it once he has real follower, email and sales numbers.
-
-### Gap-closers (Rae decides)
-1. **Keep the PMP on the 4th Try cohort** as a January bridge (15 × $297 = $4,455, already planned). Easiest single gap-closer.
-2. **Pre-sell the signature bundle in December** at a founding price, so January isn't starting from zero.
-3. **Small paid ads** to the best free guide, only after one organic post proves it converts (needs a budget from Rae).
-4. **Bulk / organization sales** of the Rebuilding book (churches, women's groups, nonprofits).
-5. **Move the $20K date** to a later month and keep January as a $5–10K proof month.
-
----
-
-## 4. Audience engine (Toni owns it; Benjamin tracks it)
-
-Every video points to **one** free guide → email → ebook offer.
-
-| Channel | Weekly output | Sends viewers to |
-|---|---|---|
-| Rebuilding Out Loud (YouTube) | 5 Shorts + 1 long video | Rebuilding free guide → $97 signature |
-| Noah & Nyla (YouTube + IG) | 3–5 Shorts (Rae supplies) | Free read-along → N&N ebooks |
-| What We Carry (YouTube) | 1 episode, after the pilot is approved | Matching companion guide |
-| TikTok pages (Level Up, Island Life, Corporate) | Daily, per existing rules | Matching collection's free guide |
-
-**Milestones**
-- Nov 30: Every free guide live and working on a phone; email capture verified; Stan and website match.
-- Dec 15: Signature bundle pre-sale open; email list number known.
-- Jan 1: Launch week with daily email + Shorts.
-
----
-
-## 5. Tracking
-Every sale gets tagged to the post, video or email that produced it (Stan UTM links). Benjamin reports weekly: revenue vs. target, email signups, sales by offer, and subscribers per channel.
+## Rules
+- Never claim PMI approval or use "Authorized" wording until PMI approves the application. Until then, market it as a PMP exam-prep study group.
+- Real estate marketing waits until her broker confirms what's allowed, and always shows the brokerage name.

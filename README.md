@@ -1,6 +1,6 @@
 # The Elevated Standard — Business Hub
 
-Home base for Rae's plan to reach **$20,000/month starting January 2027**, driven by **ebooks** and **YouTube brands**.
+Home base for Rae's plan to reach **$20,000/month starting January 2027**, driven by PMP exam prep, customer service workshops, Georgia real estate flashcards and referrals, with ebooks and YouTube building the audience. Rae leaves corporate May 30, 2027.
 
 ## Start here
 | File | What it is |
@@ -10,6 +10,9 @@ Home base for Rae's plan to reach **$20,000/month starting January 2027**, drive
 | [docs/brands.md](docs/brands.md) | Each brand, who it's for, and what it sells |
 | [docs/website-migration.md](docs/website-migration.md) | Moving off the ChatGPT-built site and making the site match Stan |
 | [docs/team.md](docs/team.md) | The AI leadership team and who owns what |
+| [docs/real-estate-emails.md](docs/real-estate-emails.md) | Emails to your broker and partner agents |
+| [site/](site/) | Draft website for elevatedstandardgroupllc.com |
+| [products/ga-real-estate-flashcards/](products/ga-real-estate-flashcards/) | Georgia real estate exam flashcards |
 | [docs/open-questions.md](docs/open-questions.md) | What Rae still needs to share |
 
 ## Weekly rhythm

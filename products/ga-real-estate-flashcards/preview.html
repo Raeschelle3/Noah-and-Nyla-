@@ -1,0 +1,213 @@
+<title>Georgia Real Estate Flashcards</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Newsreader:opsz,wght@6..72,400;6..72,500&family=IBM+Plex+Mono:wght@500&display=swap">
+<style>
+/* Layout: one-screen study tool. Topic chips on top, one big card in the middle, answer buttons in the thumb zone. */
+:root {
+  --paper: #F5F7F6;
+  --ink: #15211F;
+  --muted: #55625F;
+  --line: #CBD3D0;
+  --surface: #FFFFFF;
+  --accent: #0E5A4B;
+  --accent-ink: #FFFFFF;
+  --gold: #9A6F17;
+  --good: #1D7A45;
+  --again: #A6402B;
+  --display: "Bricolage Grotesque", "Avenir Next", "Segoe UI", system-ui, sans-serif;
+  --body: "Newsreader", Georgia, "Times New Roman", serif;
+  --mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #0F1715; --ink: #E6ECEA; --muted: #9FADA9; --line: #2C3A37; --surface: #16211F;
+    --accent: #5BBFA4; --accent-ink: #08201A; --gold: #DDB25A; --good: #5CC98A; --again: #E88A73;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #0F1715; --ink: #E6ECEA; --muted: #9FADA9; --line: #2C3A37; --surface: #16211F;
+  --accent: #5BBFA4; --accent-ink: #08201A; --gold: #DDB25A; --good: #5CC98A; --again: #E88A73;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--paper); color: var(--ink); font-family: var(--body); font-size: 1.1rem; line-height: 1.5; }
+.app { max-width: 34rem; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 20px 28px; display: grid; gap: 18px; }
+.top { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; flex-wrap: wrap; }
+h1 { font-family: var(--display); font-size: 1.35rem; margin: 0; line-height: 1.15; text-wrap: balance; }
+h1 span { color: var(--accent); }
+.count { font-family: var(--mono); font-size: 0.78rem; color: var(--muted); font-variant-numeric: tabular-nums; }
+.chips { display: flex; gap: 8px; flex-wrap: wrap; }
+.chip { font-family: var(--display); font-size: 0.85rem; padding: 7px 12px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); cursor: pointer; }
+.chip[aria-pressed="true"] { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+.bar { height: 4px; background: var(--line); border-radius: 2px; overflow: hidden; }
+.bar i { display: block; height: 100%; background: var(--good); width: 0; transition: width .25s ease; }
+.card { position: relative; min-height: 18rem; border: 1px solid var(--line); border-radius: 6px; background: var(--surface); padding: 22px 20px 20px; display: grid; grid-template-rows: auto 1fr auto; gap: 14px; cursor: pointer; text-align: left; font: inherit; color: inherit; width: 100%; }
+.card:focus-visible, .chip:focus-visible, .btn:focus-visible { outline: 3px solid var(--gold); outline-offset: 3px; }
+.meta { display: flex; justify-content: space-between; gap: 10px; font-family: var(--mono); font-size: 0.72rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); }
+.meta b { color: var(--gold); font-weight: 500; }
+.face { align-self: center; min-width: 0; }
+.q { font-family: var(--display); font-size: 1.45rem; font-weight: 500; line-height: 1.25; text-wrap: balance; }
+.a { font-size: 1.15rem; }
+.a strong { font-family: var(--display); display: block; font-size: 1.25rem; margin-bottom: 6px; color: var(--accent); }
+.hint { font-family: var(--mono); font-size: 0.72rem; color: var(--muted); letter-spacing: 0.06em; }
+.controls { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.btn { font-family: var(--display); font-size: 1rem; font-weight: 500; padding: 15px 12px; border-radius: 5px; border: 1.5px solid var(--line); background: var(--surface); color: var(--ink); cursor: pointer; }
+.btn.again { border-color: var(--again); color: var(--again); }
+.btn.good { border-color: var(--good); background: var(--good); color: var(--paper); }
+.btn:disabled { opacity: 0.4; cursor: default; }
+.sub { display: flex; justify-content: space-between; gap: 10px; flex-wrap: wrap; }
+.link { background: none; border: 0; padding: 4px 0; font-family: var(--mono); font-size: 0.78rem; color: var(--muted); cursor: pointer; text-decoration: underline; text-underline-offset: 3px; }
+.done { text-align: center; display: grid; gap: 10px; }
+.done .q { font-size: 1.6rem; }
+.fine { font-size: 0.85rem; color: var(--muted); }
+@media (prefers-reduced-motion: reduce) { .bar i { transition: none; } }
+</style>
+
+<div class="app">
+  <div class="top">
+    <h1>Georgia Real Estate <span>Flashcards</span></h1>
+    <span class="count" id="count" aria-live="polite"></span>
+  </div>
+  <div class="chips" id="chips" role="group" aria-label="Choose a topic"></div>
+  <div class="bar" aria-hidden="true"><i id="bar"></i></div>
+  <button class="card" id="card" type="button" aria-live="polite"></button>
+  <div class="controls">
+    <button class="btn again" id="again" type="button">Study again</button>
+    <button class="btn good" id="good" type="button">Got it</button>
+  </div>
+  <div class="sub">
+    <button class="link" id="shuffle" type="button">Shuffle</button>
+    <button class="link" id="reset" type="button">Start this topic over</button>
+  </div>
+  <p class="fine">A study aid from The Elevated Standard. Always check current rules with the Georgia Real Estate Commission and your pre-license course.</p>
+</div>
+
+<script>
+const CARDS = [
+  // Georgia law
+  ["Georgia law","Which agency licenses and regulates real estate licensees in Georgia?","Georgia Real Estate Commission (GREC)","GREC enforces the Georgia License Law (O.C.G.A. Title 43, Chapter 40)."],
+  ["Georgia law","What does BRRETA stand for?","Brokerage Relationships in Real Estate Transactions Act","Georgia's agency law. It sets the duties brokers owe clients and customers."],
+  ["Georgia law","Under BRRETA, what must a dual agent have before acting for both buyer and seller?","Written consent from both clients","Both parties must agree in writing after being told what dual agency means."],
+  ["Georgia law","What is a transaction broker in Georgia?","A broker who helps a party without representing them as a client","No client relationship; the broker still must deal honestly and do assigned tasks with care."],
+  ["Georgia law","What is a designated agent?","A licensee assigned by the broker to represent only one party","Lets two agents at the same firm represent buyer and seller separately."],
+  ["Georgia law","What must a seller's agent disclose to a buyer under BRRETA?","Adverse material facts about the property's physical condition that the agent actually knows and a reasonable inspection would not reveal","Georgia otherwise leans caveat emptor, so this duty matters."],
+  ["Georgia law","Can a Georgia salesperson operate independently of a broker?","No","A salesperson's license must be held by a broker, and the salesperson acts on the broker's behalf."],
+  ["Georgia law","How many hours of pre-license education does a Georgia salesperson need?","75 hours","Plus passing the state exam."],
+  ["Georgia law","What must a new Georgia salesperson complete after licensing?","A 25-hour post-license course in the first year","Missing it puts the license at risk."],
+  ["Georgia law","How often does a Georgia license renew, and how much CE is required?","Every 4 years; 36 hours of continuing education","Includes required license law hours."],
+  ["Georgia law","What kind of security instrument is used for most Georgia home loans?","A security deed (deed to secure debt)","Georgia is a title theory state; the lender holds title as security."],
+  ["Georgia law","How are most Georgia foreclosures handled?","Non-judicial, under the power of sale in the security deed","Faster than court foreclosure."],
+  ["Georgia law","Who typically conducts real estate closings in Georgia?","An attorney","Georgia is considered an attorney closing state."],
+  ["Georgia law","Must a Georgia licensee volunteer that a death or crime happened at a property?","Generally no, but they cannot knowingly give false answers if asked","These are stigmatized property facts, not physical defects."],
+
+  // Ownership
+  ["Ownership","What is the highest form of ownership?","Fee simple absolute","Unlimited duration, freely transferable, inheritable."],
+  ["Ownership","What ends when the measuring person dies?","A life estate","After it ends, ownership goes to the remainderman or reverts to the grantor."],
+  ["Ownership","What are the four unities of joint tenancy?","Possession, Time, Title, Interest (PTTI)","Joint tenancy carries the right of survivorship."],
+  ["Ownership","Tenancy in common: what happens when an owner dies?","Their share passes to their heirs or will, not to the other owners","No right of survivorship; shares can be unequal."],
+  ["Ownership","Name the four government powers over property.","Police power, Eminent domain, Taxation, Escheat (PETE)","Eminent domain requires just compensation."],
+  ["Ownership","What is escheat?","Property passes to the state when an owner dies with no will and no heirs",""],
+  ["Ownership","Easement appurtenant vs. easement in gross?","Appurtenant runs with the land and benefits a neighboring parcel; in gross benefits a person or company","Utility lines are a common easement in gross."],
+  ["Ownership","What is an easement by prescription?","An easement gained through open, continuous, hostile use for the period set by law",""],
+  ["Ownership","What is an encroachment?","A structure that extends onto a neighbor's land","Usually found by a survey."],
+  ["Ownership","Name the four leasehold estates.","Estate for years, periodic tenancy, tenancy at will, tenancy at sufferance","At sufferance means a holdover tenant without permission."],
+
+  // Contracts
+  ["Contracts","Void vs. voidable?","Void has no legal effect; voidable is valid until one party chooses to cancel it","A contract with a minor is usually voidable by the minor."],
+  ["Contracts","What does the Statute of Frauds require for real estate sales?","They must be in writing to be enforceable",""],
+  ["Contracts","What happens to the original offer when a counteroffer is made?","It is terminated","The counteroffer is a new offer."],
+  ["Contracts","Bilateral vs. unilateral contract?","Bilateral is a promise for a promise; unilateral is a promise for an act","A sales contract is bilateral; an option is unilateral until exercised."],
+  ["Contracts","Assignment vs. novation?","Assignment transfers rights but the original party may stay liable; novation replaces the contract or party and releases the original",""],
+  ["Contracts","What are liquidated damages?","An amount agreed in advance, often the earnest money, paid if a party defaults",""],
+  ["Contracts","What is specific performance?","A court order forcing a party to complete the contract","Available because each property is unique."],
+  ["Contracts","What makes a contract valid?","Competent parties, offer and acceptance, consideration, legal purpose (and writing for real estate)",""],
+
+  // Agency
+  ["Agency","What are an agent's fiduciary duties?","Obedience, Loyalty, Disclosure, Confidentiality, Accounting, Reasonable care (OLDCAR)",""],
+  ["Agency","Special agent vs. general agent?","A special agent handles one transaction (like a listing); a general agent handles a range of matters (like a property manager)",""],
+  ["Agency","Which listing pays the broker no matter who sells the property?","Exclusive right to sell",""],
+  ["Agency","Exclusive agency listing: when is no commission owed?","When the owner finds the buyer themselves",""],
+  ["Agency","Open listing?","A non-exclusive listing; only the broker who brings the buyer is paid","The owner can list with several brokers."],
+  ["Agency","What is commingling?","Mixing client funds with the broker's own money","Prohibited. Earnest money belongs in a trust or escrow account."],
+
+  // Fair housing
+  ["Fair housing","Protected classes under the federal Fair Housing Act?","Race, color, religion, national origin, sex, familial status, disability","Familial status and disability were added in 1988."],
+  ["Fair housing","What is steering?","Guiding buyers toward or away from areas based on a protected class",""],
+  ["Fair housing","What is blockbusting?","Persuading owners to sell by claiming a protected group is moving in",""],
+  ["Fair housing","What is redlining?","Refusing or limiting loans in certain areas based on the residents' protected class",""],
+
+  // Finance
+  ["Finance","What is one discount point?","1% of the loan amount",""],
+  ["Finance","When must PMI end automatically on a conventional loan?","When the balance is scheduled to reach 78% of the original value","The borrower can ask to cancel at 80%."],
+  ["Finance","What is LTV?","Loan-to-value: loan amount divided by the lower of price or appraised value",""],
+  ["Finance","When must the Loan Estimate be delivered?","Within 3 business days after the loan application","TRID rule."],
+  ["Finance","When must the Closing Disclosure be received?","At least 3 business days before closing (consummation)","TRID rule."],
+  ["Finance","What is an amortized loan?","Regular payments cover interest and principal so the loan is paid off by the end",""],
+  ["Finance","What does RESPA prohibit?","Kickbacks and unearned referral fees for settlement services",""],
+  ["Finance","Lead-based paint disclosure applies to homes built before what year?","1978","Buyers get up to 10 days for a risk assessment unless they waive it."],
+
+  // Valuation
+  ["Valuation","Name the three approaches to value.","Sales comparison, cost, income",""],
+  ["Valuation","Which approach is best for a single-family home?","Sales comparison (market data)",""],
+  ["Valuation","What is the IRV formula?","Income = Rate × Value","Value = Net operating income ÷ cap rate."],
+  ["Valuation","How do you find the gross rent multiplier (GRM)?","Sales price ÷ gross monthly rent",""],
+  ["Valuation","Which kind of depreciation is always incurable?","External (economic) obsolescence","It's caused by something outside the property."],
+  ["Valuation","What is functional obsolescence?","Loss of value from outdated design or layout, like a bedroom you can only reach through another bedroom",""],
+
+  // Math
+  ["Math","How many square feet are in an acre?","43,560",""],
+  ["Math","How many acres are in a section?","640","A township is 36 sections (6 miles × 6 miles)."],
+  ["Math","A $350,000 sale pays 3% to your side. Your broker split is 70/30 in your favor. What do you earn?","$7,350","$350,000 × 0.03 = $10,500, then × 0.70 = $7,350."],
+  ["Math","NOI is $48,000 and the cap rate is 8%. What is the value?","$600,000","$48,000 ÷ 0.08."],
+  ["Math","A loan is $240,000. Two points are charged. What do the points cost?","$4,800","$240,000 × 0.02."],
+  ["Math","A home sold for $300,000 with 90% LTV. What is the loan amount?","$270,000",""]
+];
+
+const KEY = "ga-re-flashcards-v1";
+let known = {};
+try { known = JSON.parse(localStorage.getItem(KEY) || "{}"); } catch (e) { known = {}; }
+const save = () => { try { localStorage.setItem(KEY, JSON.stringify(known)); } catch (e) {} };
+
+const topics = ["All", ...new Set(CARDS.map(c => c[0]))];
+let topic = "All", deck = [], i = 0, flipped = false;
+
+const $ = id => document.getElementById(id);
+const chips = $("chips"), card = $("card");
+
+function build() {
+  deck = CARDS.map((c, idx) => idx).filter(idx => (topic === "All" || CARDS[idx][0] === topic) && !known[idx]);
+  i = 0; flipped = false; render();
+}
+function render() {
+  const pool = CARDS.filter(c => topic === "All" || c[0] === topic).length;
+  const learned = pool - deck.length;
+  $("count").textContent = `${learned} of ${pool} learned`;
+  $("bar").style.width = pool ? (learned / pool * 100) + "%" : "0";
+  const empty = deck.length === 0;
+  $("again").disabled = empty || !flipped; $("good").disabled = empty || !flipped;
+  if (empty) {
+    card.innerHTML = `<div class="meta"><span>${topic}</span><b>Done</b></div><div class="face done"><div class="q">You learned every card in this topic.</div><div class="a">Pick another topic, or start this one over to review.</div></div><span class="hint"></span>`;
+    return;
+  }
+  const c = CARDS[deck[i]];
+  card.innerHTML = flipped
+    ? `<div class="meta"><span>${c[0]}</span><b>Answer</b></div><div class="face a"><strong>${c[2]}</strong>${c[3] || ""}</div><span class="hint">Did you know it?</span>`
+    : `<div class="meta"><span>${c[0]}</span><b>Question</b></div><div class="face q">${c[1]}</div><span class="hint">Tap the card to see the answer</span>`;
+}
+topics.forEach(t => {
+  const b = document.createElement("button");
+  b.className = "chip"; b.type = "button"; b.textContent = t; b.id = "chip-" + t.replace(/\W+/g, "-").toLowerCase();
+  b.setAttribute("aria-pressed", t === topic);
+  b.onclick = () => { topic = t; chips.querySelectorAll(".chip").forEach(x => x.setAttribute("aria-pressed", x === b)); build(); };
+  chips.appendChild(b);
+});
+card.onclick = () => { if (deck.length) { flipped = !flipped; render(); } };
+$("good").onclick = () => { known[deck[i]] = 1; save(); deck.splice(i, 1); if (i >= deck.length) i = 0; flipped = false; render(); };
+$("again").onclick = () => { deck.push(deck.splice(i, 1)[0]); if (i >= deck.length) i = 0; flipped = false; render(); };
+$("shuffle").onclick = () => { for (let k = deck.length - 1; k > 0; k--) { const j = Math.floor(Math.random() * (k + 1)); [deck[k], deck[j]] = [deck[j], deck[k]]; } i = 0; flipped = false; render(); };
+$("reset").onclick = () => { CARDS.forEach((c, idx) => { if (topic === "All" || c[0] === topic) delete known[idx]; }); save(); build(); };
+build();
+</script>

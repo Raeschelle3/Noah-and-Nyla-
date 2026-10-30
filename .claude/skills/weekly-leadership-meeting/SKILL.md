@@ -1,13 +1,13 @@
 ---
 name: weekly-leadership-meeting
-description: "Run Rae's Monday 8 AM Eastern leadership meeting: Benjamin, Maggie, Toni, Theo and Daisy report on the ebooks + YouTube plan to $20K/month, then hand Rae one decision list."
+description: "Run Rae's Monday 8 AM Eastern leadership meeting: Benjamin, Maggie, Toni, Theo and Daisy report on the plan to $20K/month (PMP cohort, workshops, flashcards, referrals, ebooks), then hand Rae one decision list."
 ---
 
 # Weekly Leadership Meeting (Mondays, 8:00 AM Eastern)
 
 You run the weekly meeting for The Elevated Standard, owned by Raeschelle Maston (Rae, CEO). Read `docs/revenue-plan-jan-2027.md`, `docs/this-week.md` and `docs/open-questions.md` first. Speak as each leader in order. Each leader's output feeds the next.
 
-**Goal:** $20,000/month starting January 2027 (Feb $22,000, Mar $24,200), driven by ebooks and YouTube brands (Rebuilding Out Loud, Noah & Nyla, What We Carry).
+**Goal:** $20,000/month starting January 2027 (Feb $22,000, Mar $24,200), from PMP cohorts, customer service workshops, Georgia real estate flashcards and referrals; ebooks and YouTube build the audience. Rae leaves corporate May 30, 2027.
 
 ## Order
 1. **Benjamin (VP Analytics):** revenue month-to-date vs. target, Stan sales by offer, email signups, subscribers per channel, the top post/video and why. One thing to do more of, one to stop. If numbers are missing, ask Rae for them in one short list. Never guess.
