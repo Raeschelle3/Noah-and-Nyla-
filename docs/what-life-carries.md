@@ -7,7 +7,7 @@ No personal name anywhere: channel, banner, titles, videos, descriptions.
 |---|---|
 | 3 Shorts rebranded "WHAT LIFE CARRIES" + original background music | Done (`media/what-life-carries/`) |
 | Voiceover | Scripts below; record in ElevenLabs |
-| New pictures per episode (instead of one picture) | Next: generate scenes in Canva |
+| New pictures per episode (instead of one picture) | Episode 1: 3 scenes made in Rae's Canva (Oct 30). Episodes 2–3 next |
 | Channel created | **Rae** (Google sign-in is hers) |
 | Upload | **Rae**, or Claude in Chrome on her computer |
 
@@ -45,3 +45,13 @@ Voiceover: "The words sound right. But the plans keep changing. One change isn't
 1. **Different pictures:** 3–4 scenes per episode (text arrives, a cafe pause, a walk alone, a phone face-down), generated in Canva in the same style.
 2. **Voiceover:** record each script in ElevenLabs (calm adult voice, 0.95x), drop it over the music.
 3. Claude re-cuts each Short with the new pictures, voice and music.
+
+## Episode 1 scenes in Canva (made Oct 30)
+| Scene | Canva link |
+|---|---|
+| She smiles at a "good morning" text on the sofa | https://www.canva.com/M/MAHZc2sdCT8 |
+| He texts casually; the calendar behind him is empty | https://www.canva.com/M/MAHZc8XU9tc |
+| She walks alone at sunset, decision made | https://www.canva.com/M/MAHZc0KTEV4 |
+
+Planned cut (30 sec): sofa text (0–7s, "We text every day.") → him texting (7–14s, "So when are we meeting?") → cafe scene (14–22s, the takeaway) → sunset walk (22–30s, "Ask clearly. Watch the follow-through."), with music and voiceover.
+To assemble: Claude needs the full-size images. Either Rae downloads them from Canva, or `canva.com` gets added to the workspace's allowed domains.
