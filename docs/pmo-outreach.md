@@ -1,5 +1,30 @@
 # PMO Leader Outreach + LinkedIn AI Post
 
+## Pitch email (solution offer), for directors / VPs of PMO
+
+**Who:** 5–10 PMO directors or VPs at Atlanta-area companies, nonprofits, health systems and universities. **Not** Rae's current employer or its clients. Rae picks them from her LinkedIn network, or Claude researches public names; Rae confirms each address before anything is sent.
+
+Subject: PMP prep for your team after PMI's Dec 1 change
+
+Hi [First name],
+
+PMI changed the PMP training rules on December 1: live training now counts toward the 35 hours only through authorized providers. Many project managers who were planning to certify in 2027 are suddenly unsure what to do next.
+
+I help PMOs get their people certified and performing. I'm a PMP and PMI-ACP with 15 years in corporate project work, and I passed the PMP on my fourth try, so I know exactly where people get stuck. For teams, I offer:
+
+- **PMP exam prep for your team:** small weeknight group, built for working PMs.
+- **PMO reporting setup:** status reporting your executives actually read.
+- **Customer-focused project teams:** a workshop on stakeholder communication and service.
+
+Would a 15-minute call make sense to see if one of these fits your 2027 plans?
+
+Thank you,
+Rae
+Raeschelle Maston, PMP, PMI-ACP
+
+(Before PMI approval: don't say the group provides qualifying hours.)
+
+
 ## Email (to 5 PMO directors / VPs of PMO; not anyone at Rae's current employer)
 
 Subject: Quick question from a fellow PMP
