@@ -55,3 +55,23 @@ Voiceover: "The words sound right. But the plans keep changing. One change isn't
 
 Planned cut (30 sec): sofa text (0–7s, "We text every day.") → him texting (7–14s, "So when are we meeting?") → cafe scene (14–22s, the takeaway) → sunset walk (22–30s, "Ask clearly. Watch the follow-through."), with music and voiceover.
 To assemble: Claude needs the full-size images. Either Rae downloads them from Canva, or `canva.com` gets added to the workspace's allowed domains.
+
+## v2 characters: young and vibrant (Oct 30, Rae's direction)
+Replaces the older couple. Character sheet (use as the reference for every scene): https://www.canva.com/M/MAHZc_JZGH8
+- **Her:** mid-20s, curly afro puff, gold hoops, hunter green cropped jacket, wide-leg jeans.
+- **Him:** mid-20s, short twist-out, light beard, mustard-gold bomber, white tee.
+
+### Episode 1 scenes (v2)
+| # | Scene | Canva |
+|---|---|---|
+| 1 | She grins at a heart text in bed | https://www.canva.com/M/MAHZc-WVEG0 |
+| 2 | He texts while gaming; empty calendar | https://www.canva.com/M/MAHZc6NB4Ck |
+| 3 | Split screen: texts fly, no plans | https://www.canva.com/M/MAHZc7rjGn4 |
+| 4 | She sends the clear message, smiling | https://www.canva.com/M/MAHZczhoFo4 |
+
+## Production line (each episode)
+1. **Claude:** story → 4 scenes in Canva (same character sheet) → voiceover script → captions.
+2. **Rae (10 min):** drop each scene into **Runway** (image to video, 5 seconds, gentle motion: blink, phone glow, hair moving). Kaiber works too.
+3. **Rae (5 min):** paste the script into ElevenLabs, export the voice.
+4. **Claude:** cuts scenes + voice + music + captions + "WHAT LIFE CARRIES" end card into the 30-second Short.
+5. **Rae:** upload, or Claude in Chrome uploads while she watches.
