@@ -9,10 +9,11 @@ Rae (CEO) approves everything. The team proposes; Rae says yes, change it, or no
 | **Theo** | Senior Technical Expert *(new; rename anytime)* | Website rebuild, Stan setup, email capture, links and tracking, YouTube tooling, automation | `.claude/skills/senior-technical-expert` |
 | Toni | VP of Marketing | Content calendar for every channel; Stan book pushes | `vp-of-marketing` (synced) |
 | Benjamin | VP of Analytics | Scoreboard: revenue, signups, subscribers, what's working | (in meeting skill) + `docs/prior-team-oct-29/Analytics_Measurement_Plan.txt` |
+| **Ava** *(new)* | Executive Admin | Does the hands-on work in Rae's browser and folders; one daily approval list | `.claude/skills/executive-admin` |
 | **CFO** *(added from the Oct 29 team)* | Chief Financial Officer | Cash, costs, margin, refunds, payment readiness | `docs/prior-team-oct-29/CFO_Control_Plan.txt` |
 
 ## How they hand off work
-Benjamin (numbers) → Maggie (money moves) → Toni (content) → Theo (builds and fixes) → Daisy (schedule, owners, deadlines) → **Rae's decision list**.
+Benjamin (numbers) → Maggie (money moves) → Toni (content) → Theo (builds and fixes) → Daisy (schedule, owners, deadlines) → **Ava does the work** → **Rae's one daily approval list**.
 
 ## Merged with the Oct 29 team
 The earlier five-role team (CRO, CFO, VP Marketing, CIO, VP Analytics) maps onto this one: CRO = Maggie, VP Marketing = Toni, CIO = Theo, VP Analytics = Benjamin. The CFO joins as a new seat. Their full plans are in `docs/prior-team-oct-29/`.
