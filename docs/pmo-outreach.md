@@ -4,11 +4,11 @@
 
 **Who:** 5–10 PMO directors or VPs at Atlanta-area companies, nonprofits, health systems and universities. **Not** Rae's current employer or its clients. Rae picks them from her LinkedIn network, or Claude researches public names; Rae confirms each address before anything is sent.
 
-Subject: PMP prep for your team after PMI's Dec 1 change
+Subject: PMP prep for your team before PMI's Dec 1 change
 
 Hi [First name],
 
-PMI changed the PMP training rules on December 1: live training now counts toward the 35 hours only through authorized providers. Many project managers who were planning to certify in 2027 are suddenly unsure what to do next.
+PMI is changing the PMP training rules on December 1: live training will count toward the 35 hours only through authorized providers. Many project managers who were planning to certify in 2027 are suddenly unsure what to do next.
 
 I help PMOs get their people certified and performing. I'm a PMP and PMI-ACP with 15 years in corporate project work, and I passed the PMP on my fourth try, so I know exactly where people get stuck. For teams, I offer:
 
