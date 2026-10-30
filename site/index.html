@@ -5,217 +5,260 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>The Elevated Standard</title>
 <meta name="claude:viewport-fit-sides" content="cover">
-<meta name="description" content="Raeschelle Maston: PMP exam prep, Georgia real estate, customer service workshops, books and free guides.">
+<meta name="description" content="Raeschelle Maston: books and free guides, PMP exam prep, Georgia real estate, and customer service workshops.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Newsreader:opsz,wght@6..72,400;6..72,500&family=IBM+Plex+Mono:wght@500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,500;1,6..96,500&family=Albert+Sans:wght@400;500;600&display=swap">
 <style>
-/* Layout: one column front door. Hero thesis, four doors to the four businesses, Rae's service standard, then books. */
+/* Layout: Rae's existing dark editorial look (Didone headlines, gold italics, pill buttons, arch portrait),
+   restructured as a front door: hero, four doors, guide finder, books, promises, author. Single dark theme by design. */
 :root {
-  --paper: #F5F7F6;
-  --ink: #15211F;
-  --muted: #55625F;
-  --line: #CBD3D0;
-  --surface: #FFFFFF;
-  --accent: #0E5A4B;
-  --accent-ink: #FFFFFF;
-  --gold: #9A6F17;
-  --draft: #FFF3CF;
-  --draft-ink: #5A4300;
-  --display: "Bricolage Grotesque", "Avenir Next", "Segoe UI", system-ui, sans-serif;
-  --body: "Newsreader", Georgia, "Times New Roman", serif;
-  --mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
-}
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    --paper: #0F1715; --ink: #E6ECEA; --muted: #9FADA9; --line: #2C3A37; --surface: #16211F;
-    --accent: #5BBFA4; --accent-ink: #08201A; --gold: #DDB25A; --draft: #3A3014; --draft-ink: #F3DFA6;
-    color-scheme: dark;
-  }
-}
-:root[data-theme="dark"] {
-  --paper: #0F1715; --ink: #E6ECEA; --muted: #9FADA9; --line: #2C3A37; --surface: #16211F;
-  --accent: #5BBFA4; --accent-ink: #08201A; --gold: #DDB25A; --draft: #3A3014; --draft-ink: #F3DFA6;
+  --ink: #121316;
+  --panel: #1A1B1F;
+  --line: #2E3036;
+  --text: #F3F1EC;
+  --soft: #A9A7A1;
+  --gold: #C9A45C;
+  --display: "Bodoni Moda", "Didot", "Bodoni 72", Georgia, serif;
+  --body: "Albert Sans", "Helvetica Neue", Arial, sans-serif;
   color-scheme: dark;
 }
 * { box-sizing: border-box; }
-body { background: var(--paper); color: var(--ink); font-family: var(--body); font-size: 1.125rem; line-height: 1.6; }
+body { background: var(--ink); color: var(--text); font-family: var(--body); font-size: 1.075rem; line-height: 1.65; }
 a { color: inherit; }
-a:focus-visible, .btn:focus-visible { outline: 3px solid var(--gold); outline-offset: 3px; }
-.wrap { max-width: 68rem; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
-.label { font-family: var(--mono); font-size: 0.75rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); }
-h1, h2, h3 { font-family: var(--display); line-height: 1.1; text-wrap: balance; margin: 0; }
-h2 { font-size: clamp(1.75rem, 4vw, 2.5rem); font-weight: 700; }
-h3 { font-size: 1.35rem; font-weight: 700; }
+:focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; }
+.wrap { max-width: 64rem; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+h1, h2, h3 { font-family: var(--display); font-weight: 500; line-height: 1.08; margin: 0; text-wrap: balance; }
+h2 { font-size: clamp(2rem, 6vw, 3rem); }
+h3 { font-size: 1.6rem; }
 p { margin: 0; }
+em.gold, .gold-i { font-style: italic; color: var(--gold); }
+.eyebrow { font-size: 0.8rem; font-weight: 600; letter-spacing: 0.2em; text-transform: uppercase; color: var(--gold); }
+.soft { color: var(--soft); }
 
-.draft { background: var(--draft); color: var(--draft-ink); font-family: var(--mono); font-size: 0.8rem; }
-.draft .wrap { padding-block: 10px; }
+.draft { background: #3A2F17; color: #F0DDAE; font-size: 0.82rem; }
+.draft .wrap { padding-block: 9px; }
 
-header .wrap { display: flex; justify-content: space-between; align-items: center; gap: 16px; padding-block: 20px; flex-wrap: wrap; }
-.brand { font-family: var(--display); font-weight: 700; font-size: 1.1rem; text-decoration: none; }
-.brand span { color: var(--accent); }
-nav { display: flex; gap: 20px; flex-wrap: wrap; font-family: var(--display); font-size: 0.95rem; }
-nav a { text-decoration: none; color: var(--muted); }
-nav a:hover { color: var(--ink); }
+/* header */
+header { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--ink); border-bottom: 1px solid var(--line); }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--ink); }
+header .wrap { display: flex; align-items: center; justify-content: space-between; gap: 14px; padding-block: 14px; }
+.brand { display: flex; align-items: center; gap: 12px; text-decoration: none; min-width: 0; }
+.mono { flex: none; width: 46px; height: 46px; border-radius: 50%; background: #F3EEE3; border: 2px solid var(--gold); box-shadow: inset 0 0 0 3px #F3EEE3, inset 0 0 0 4px var(--gold); display: grid; place-items: center; font-family: var(--display); font-style: italic; color: #1A1B1F; font-size: 1.15rem; }
+.brand-name { font-family: var(--display); font-size: 1.25rem; line-height: 1.1; display: block; }
+.brand-sub { font-size: 0.66rem; letter-spacing: 0.28em; text-transform: uppercase; color: var(--soft); display: block; margin-top: 3px; }
+.pill { display: inline-flex; align-items: center; justify-content: center; text-align: center; font-family: var(--body); font-weight: 500; font-size: 1rem; padding: 13px 24px; border-radius: 999px; text-decoration: none; border: 1.5px solid var(--text); cursor: pointer; transition: background .15s, color .15s; }
+.pill.solid { background: var(--text); color: var(--ink); }
+.pill.line { background: transparent; color: var(--text); }
+.pill.solid:hover { background: var(--gold); border-color: var(--gold); }
+.pill.line:hover { border-color: var(--gold); color: var(--gold); }
+header .pill { padding: 10px 18px; flex: none; }
+@media (max-width: 30rem) { .brand-sub { letter-spacing: 0.16em; } .brand-name { font-size: 1.1rem; } }
 
-.hero .wrap { display: grid; gap: 28px; padding-block: 48px 64px; }
-.hero h1 { font-size: clamp(2.6rem, 8vw, 5.2rem); font-weight: 700; letter-spacing: -0.02em; max-width: 14ch; }
-.hero h1 em { font-style: normal; color: var(--accent); }
-.hero .lede { font-size: 1.3rem; max-width: 36rem; color: var(--muted); }
-.level { display: flex; align-items: center; gap: 12px; font-family: var(--mono); font-size: 0.8rem; color: var(--muted); max-width: 30rem; }
-.level::before, .level::after { content: ""; height: 1px; background: var(--line); flex: 1; }
-.level b { color: var(--gold); font-weight: 500; }
+section .wrap { padding-block: 64px; display: grid; gap: 28px; }
+
+/* hero */
+.hero .wrap { grid-template-columns: minmax(0, 1.25fr) minmax(0, 0.85fr); align-items: center; gap: 40px; padding-block: 56px 64px; }
+@media (max-width: 52rem) { .hero .wrap { grid-template-columns: 1fr; } }
+.hero-text { display: grid; gap: 24px; min-width: 0; }
+.hero h1 { font-size: clamp(2.9rem, 9vw, 5rem); letter-spacing: -0.01em; }
+.hero .lede { font-size: 1.2rem; color: var(--soft); max-width: 34rem; }
 .actions { display: flex; gap: 12px; flex-wrap: wrap; }
-.btn { display: inline-block; font-family: var(--display); font-weight: 500; font-size: 1rem; padding: 14px 22px; border-radius: 4px; text-decoration: none; border: 1.5px solid var(--accent); }
-.btn.solid { background: var(--accent); color: var(--accent-ink); }
-.btn.line { color: var(--accent); }
-.btn:hover { filter: brightness(1.08); }
+.arch { width: min(100%, 22rem); aspect-ratio: 719 / 609; max-width: 100%; border-radius: 999px 999px 0 0; overflow: hidden; justify-self: center; background: var(--panel); }
+.arch img { width: 100%; height: 100%; object-fit: cover; display: block; }
 
+/* doors */
 .doors { border-top: 1px solid var(--line); }
-.doors .wrap { padding-block: 56px; display: grid; gap: 32px; }
-.door-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 15rem), 1fr)); border-top: 2px solid var(--ink); }
-.door { display: grid; grid-template-rows: auto auto 1fr auto; gap: 12px; padding: 24px 20px 28px 0; border-bottom: 1px solid var(--line); min-width: 0; }
-.door + .door { padding-left: 20px; border-left: 1px solid var(--line); }
-@media (max-width: 62rem) { .door + .door { border-left: 0; padding-left: 0; } }
-.door p { color: var(--muted); }
-.door .facts { font-family: var(--mono); font-size: 0.78rem; color: var(--gold); letter-spacing: 0.04em; }
-.door a { font-family: var(--display); font-weight: 500; color: var(--accent); text-decoration: none; }
-.door a:hover { text-decoration: underline; }
+.door-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 14.5rem), 1fr)); gap: 16px; }
+.door { background: var(--panel); border: 1px solid var(--line); border-radius: 22px; padding: 26px 22px; display: grid; grid-template-rows: auto auto 1fr auto; gap: 12px; min-width: 0; }
+.door .eyebrow { font-size: 0.72rem; letter-spacing: 0.16em; }
+.door p { color: var(--soft); }
+.door .pill { justify-self: start; padding: 11px 20px; font-size: 0.95rem; }
 
-.standard { background: var(--surface); border-block: 1px solid var(--line); }
-.standard .wrap { padding-block: 56px; display: grid; gap: 28px; }
-.rules { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 17rem), 1fr)); gap: 28px; list-style: none; margin: 0; padding: 0; counter-reset: rule; }
-.rules li { counter-increment: rule; display: grid; gap: 6px; }
-.rules li::before { content: "Standard " counter(rule); font-family: var(--mono); font-size: 0.75rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--gold); }
-.rules strong { font-family: var(--display); font-size: 1.2rem; }
-.rules span { color: var(--muted); }
+/* finder */
+.finder-box { background: var(--panel); border: 1px solid var(--line); border-radius: 28px; padding: clamp(24px, 5vw, 44px); display: grid; gap: 22px; }
+.choices { display: flex; flex-wrap: wrap; gap: 10px; }
+.choice { font-family: var(--body); font-size: 1rem; padding: 12px 20px; border-radius: 999px; border: 1.5px solid var(--line); background: var(--ink); color: var(--text); cursor: pointer; text-align: left; }
+.choice:hover { border-color: var(--soft); }
+.choice[aria-pressed="true"] { background: var(--text); color: var(--ink); border-color: var(--text); }
+.result { border-top: 1px solid var(--line); padding-top: 26px; display: grid; gap: 26px; }
+.pick { display: grid; grid-template-columns: 9rem minmax(0, 1fr); gap: 22px; align-items: center; }
+@media (max-width: 30rem) { .pick { grid-template-columns: 6.5rem minmax(0, 1fr); gap: 16px; } }
+.pick img { width: 100%; max-width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: 14px; display: block; }
+.pick .ph { aspect-ratio: 1; border-radius: 14px; border: 1px dashed var(--line); display: grid; place-items: center; font-family: var(--display); font-style: italic; color: var(--gold); font-size: 1.6rem; }
+.pick-body { display: grid; gap: 8px; min-width: 0; }
+.pick-body .pill { justify-self: start; margin-top: 6px; padding: 11px 20px; font-size: 0.95rem; }
+.pick-body h3 { font-size: 1.5rem; }
 
-.books .wrap { padding-block: 56px; display: grid; gap: 28px; }
-.feature { display: grid; grid-template-columns: minmax(0, 11rem) minmax(0, 1fr); gap: 28px; align-items: center; }
-@media (max-width: 36rem) { .feature { grid-template-columns: 1fr; } }
-.cover { aspect-ratio: 2 / 3; max-width: 100%; width: 11rem; background: var(--accent); color: var(--accent-ink); display: flex; flex-direction: column; justify-content: space-between; padding: 18px 16px; border-radius: 2px; box-shadow: 0 10px 30px -12px rgba(0,0,0,0.45); }
-.cover b { font-family: var(--display); font-size: 1.45rem; line-height: 1.05; }
-.cover small { font-family: var(--mono); font-size: 0.62rem; letter-spacing: 0.1em; text-transform: uppercase; opacity: 0.85; }
-.feature-text { display: grid; gap: 14px; min-width: 0; }
-.guides { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 14rem), 1fr)); gap: 16px; }
-.guide { border: 1px solid var(--line); border-radius: 4px; padding: 18px; display: grid; gap: 6px; text-decoration: none; background: var(--surface); }
-.guide:hover { border-color: var(--accent); }
-.guide b { font-family: var(--display); font-size: 1.05rem; }
-.guide span { color: var(--muted); font-size: 0.98rem; }
-.guide em { font-style: normal; font-family: var(--mono); font-size: 0.75rem; color: var(--accent); letter-spacing: 0.06em; }
+/* books */
+.shelf { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 16rem), 1fr)); gap: 22px; }
+.book { display: grid; gap: 14px; align-content: start; min-width: 0; }
+.book img { width: 100%; max-width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: 18px; display: block; }
+.book .pill { justify-self: start; padding: 11px 20px; font-size: 0.95rem; }
 
-.about .wrap { padding-block: 56px; display: grid; gap: 16px; max-width: 46rem; margin: 0 auto; }
-.about p { font-size: 1.2rem; }
+/* promises */
+.quote { border-left: 3px solid var(--gold); padding-left: 22px; font-family: var(--display); font-style: italic; font-size: clamp(1.8rem, 5.5vw, 2.6rem); line-height: 1.2; }
+.promises { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 16rem), 1fr)); gap: 24px; list-style: none; margin: 0; padding: 0; }
+.promises li { display: grid; gap: 6px; }
+.promises strong { font-family: var(--display); font-weight: 500; font-size: 1.35rem; }
+.promises span { color: var(--soft); }
+
+/* author */
+.chips { display: flex; flex-wrap: wrap; gap: 10px; }
+.chip { border: 1px solid var(--line); border-radius: 999px; padding: 8px 18px; font-weight: 500; font-size: 0.98rem; }
+.author .wrap { max-width: 46rem; }
+.author p { font-size: 1.15rem; }
+details summary { cursor: pointer; color: var(--gold); font-weight: 500; font-size: 1.1rem; list-style: none; }
+details summary::-webkit-details-marker { display: none; }
+details summary::after { content: "  +"; }
+details[open] summary::after { content: "  −"; }
+details p { margin-top: 14px; }
 
 footer { border-top: 1px solid var(--line); }
-footer .wrap { padding-block: 28px 40px; display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; color: var(--muted); font-size: 0.95rem; }
+footer .wrap { padding-block: 28px 44px; display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; color: var(--soft); font-size: 0.92rem; }
+@media (prefers-reduced-motion: reduce) { .pill { transition: none; } }
 </style>
 </head>
 <body>
 
 
+
+
 <header>
   <div class="wrap">
-    <a class="brand" href="#top">The Elevated <span>Standard</span></a>
-    <nav aria-label="Main">
-      <a href="#work-with-rae">Work with Rae</a>
-      <a href="#books">Books &amp; free guides</a>
-      <a href="#about">About</a>
-    </nav>
+    <a class="brand" href="#top" aria-label="The Elevated Standard, home">
+      <span class="mono" aria-hidden="true">ES</span>
+      <span><span class="brand-name">The Elevated Standard</span><span class="brand-sub">Books, classes &amp; guides</span></span>
+    </a>
+    <a class="pill solid" href="#start">Start here</a>
   </div>
 </header>
 
 <main id="top">
   <section class="hero">
     <div class="wrap">
-      <p class="label">Raeschelle Maston · PMP · Licensed real estate agent</p>
-      <h1>Raise the bar. <em>Get it done.</em></h1>
-      <p class="lede">I help people pass the exam, find the right real estate help, fix the customer experience, and rebuild. I bring straight answers and fast follow-through.</p>
-      <p class="level"><b>4th try</b> how many attempts my PMP took. I'll help you pass on yours.</p>
-      <div class="actions">
-        <a class="btn solid" href="https://stan.store/theelevatedstandardco" target="_blank" rel="noopener">Join the January PMP group</a>
-        <a class="btn line" href="#books">Get a free guide</a>
+      <div class="hero-text">
+        <h1>Real life. Real tools. <em class="gold">Higher standards.</em></h1>
+        <p class="lede">I help people pass the exam, find the right real estate help, fix the customer experience, and get through the life moments no one prepares you for.</p>
+        <div class="actions">
+          <a class="pill solid" href="#start">Find the right guide</a>
+          <a class="pill line" href="#doors">Work with Rae</a>
+        </div>
       </div>
+      <div class="arch"><img src="assets/rae.jpg" alt="Raeschelle Maston"></div>
     </div>
   </section>
 
-  <section class="doors" id="work-with-rae">
+  <section class="doors" id="doors">
     <div class="wrap">
       <div>
-        <p class="label">Work with Rae</p>
-        <h2>Pick the door you need.</h2>
+        <p class="eyebrow">Work with Rae</p>
+        <h2>Pick the door <em class="gold">you need.</em></h2>
       </div>
       <div class="door-grid">
         <article class="door">
-          <p class="facts">$499 · 15 seats · weeknights · Jan 2027</p>
+          <p class="eyebrow">$499 · 15 seats · Jan 2027</p>
           <h3>PMP on the 4th Try</h3>
-          <p>A small PMP exam-prep study group, led by someone who knows what it takes to keep going after a fail.</p>
-          <a href="https://stan.store/theelevatedstandardco" target="_blank" rel="noopener">Reserve a seat →</a>
+          <p>A small weeknight PMP exam-prep group, led by someone who passed on her fourth try and knows how to come back from a fail.</p>
+          <a class="pill solid" href="https://stan.store/theelevatedstandardco" target="_blank" rel="noopener">Reserve a seat</a>
         </article>
         <article class="door">
-          <p class="facts">Georgia · trusted referrals</p>
+          <p class="eyebrow">Georgia · trusted referrals</p>
           <h3>Real estate, the trusted way</h3>
           <p>Thinking about buying or selling? I'll answer your questions straight and connect you with an agent I trust.</p>
-          <a href="https://stan.store/theelevatedstandardco" target="_blank" rel="noopener">Ask Rae →</a>
+          <a class="pill solid" href="https://stan.store/theelevatedstandardco" target="_blank" rel="noopener">Ask Rae</a>
         </article>
         <article class="door">
-          <p class="facts">For small businesses &amp; teams</p>
+          <p class="eyebrow">Small businesses &amp; teams</p>
           <h3>Customer service workshops</h3>
-          <p>I find where customers get let down and train your team to fix it. Live workshops and service audits.</p>
-          <a href="https://stan.store/theelevatedstandardco" target="_blank" rel="noopener">Ask about a workshop →</a>
+          <p>I find where your customers get let down and train your team to fix it, through live workshops and service audits.</p>
+          <a class="pill solid" href="https://stan.store/theelevatedstandardco" target="_blank" rel="noopener">Ask about a workshop</a>
         </article>
         <article class="door">
-          <p class="facts">Digital · study on your phone</p>
-          <h3>Real estate exam flashcards</h3>
-          <p>The terms and math that show up on the licensing exam, built for studying in five-minute breaks.</p>
-          <a href="https://stan.store/theelevatedstandardco" target="_blank" rel="noopener">Get the flashcards →</a>
+          <p class="eyebrow">Study on your phone</p>
+          <h3>Georgia real estate flashcards</h3>
+          <p>The terms and math that show up on the Georgia licensing exam, built for five-minute study breaks.</p>
+          <a class="pill solid" href="https://stan.store/theelevatedstandardco" target="_blank" rel="noopener">Get the flashcards</a>
         </article>
       </div>
     </div>
   </section>
 
-  <section class="standard">
+  <section class="finder" id="start">
     <div class="wrap">
-      <div>
-        <p class="label">How I work</p>
-        <h2>The standard you can expect.</h2>
+      <div class="finder-box">
+        <div>
+          <p class="eyebrow">Not sure where to start?</p>
+          <h2>What's going on in your life right now?</h2>
+        </div>
+        <p class="soft">Pick the one closest to you. One tap takes you to the free guide or the book that goes with it.</p>
+        <div class="choices" id="choices" role="group" aria-label="Choose what's going on"></div>
+        <div class="result" id="result" aria-live="polite"></div>
       </div>
-      <ol class="rules">
-        <li><strong>A reply within one business day.</strong><span>Every message, every time. Being left waiting is where bad service starts.</span></li>
-        <li><strong>The truth, even when it's hard.</strong><span>You get the real picture, so your decisions are your own.</span></li>
-        <li><strong>A fix, not an excuse.</strong><span>If something goes wrong, I bring the solution with the news.</span></li>
-      </ol>
     </div>
   </section>
 
   <section class="books" id="books">
     <div class="wrap">
       <div>
-        <p class="label">Books &amp; free guides</p>
-        <h2>Start with the one that matters most.</h2>
+        <p class="eyebrow">The bookshop</p>
+        <h2>Start with <em class="gold">the one that fits.</em></h2>
       </div>
-      <div class="feature">
-        <div class="cover" role="img" aria-label="Placeholder cover for I Almost Lost Her"><small>Raeschelle Maston</small><b>I Almost Lost Her</b><small>Cover from Stan</small></div>
-        <div class="feature-text">
+      <div class="shelf">
+        <article class="book">
+          <img src="assets/i-almost-lost-her.jpg" alt="Cover of I Almost Lost Her by Raeschelle Maston">
+          <p class="eyebrow">Health &amp; Living · $17</p>
           <h3>I Almost Lost Her</h3>
-          <p>My most important book, and the best place to start.</p>
-          <div class="actions"><a class="btn solid" href="https://stan.store/theelevatedstandardco" target="_blank" rel="noopener">Read it</a></div>
-        </div>
+          <p class="soft">A story of maternal advocacy, fear, and a voice that would not go unheard.</p>
+          <a class="pill solid" href="https://stan.store/theelevatedstandardco" target="_blank" rel="noopener">Buy the book</a>
+        </article>
+        <article class="book">
+          <img src="assets/hospital-advocacy-notes.jpg" alt="Cover of the free Hospital Advocacy Notes Sheet">
+          <p class="eyebrow">Free guide</p>
+          <h3>Hospital Advocacy Notes Sheet</h3>
+          <p class="soft">Questions, observations, and notes to help you speak up with clarity. Instant download when you enter your email.</p>
+          <a class="pill line" href="https://stan.store/theelevatedstandardco" target="_blank" rel="noopener">Get the free guide</a>
+        </article>
+        <article class="book">
+          <img src="assets/girl-corporate-america.jpg" alt="Cover of Girl, Let Me Tell You About Corporate America by Raeschelle Maston" style="object-position: top">
+          <p class="eyebrow">Career &amp; Corporate</p>
+          <h3>Girl, Let Me Tell You About Corporate America</h3>
+          <p class="soft">Understand the power. Get credit for your work. Decide your next move.</p>
+          <a class="pill solid" href="https://stan.store/theelevatedstandardco" target="_blank" rel="noopener">Buy the book</a>
+        </article>
       </div>
-      <div class="guides">
-        <a class="guide" href="https://stan.store/theelevatedstandardco" target="_blank" rel="noopener"><em>Free guide</em><b>Career &amp; Corporate</b><span>Getting in, moving up, and knowing when to leave.</span></a>
-        <a class="guide" href="https://stan.store/theelevatedstandardco" target="_blank" rel="noopener"><em>Free guide</em><b>Health &amp; Living</b><span>Practical guides for your health and everyday life.</span></a>
-        <a class="guide" href="https://stan.store/theelevatedstandardco" target="_blank" rel="noopener"><em>Free guide</em><b>Travel &amp; Lifestyle</b><span>Travel ideas, with a focus on Jamaica.</span></a>
-      </div>
+      <a class="pill line" style="justify-self:start" href="https://stan.store/theelevatedstandardco" target="_blank" rel="noopener">Browse all books</a>
     </div>
   </section>
 
-  <section class="about" id="about">
+  <section class="standard">
     <div class="wrap">
-      <p class="label">About Rae</p>
-      <h2>I'm Raeschelle Maston.</h2>
-      <p>I'm a certified Project Management Professional, a licensed real estate agent, and an author. I love helping people, I can't stand poor customer service, and I move fast to find solutions. Whether you're studying, buying, building a team, or rebuilding your life, you'll get my full attention and a clear plan.</p>
+      <p class="quote">Follow what fulfills you,<br>and do it when you're ready.</p>
+      <div>
+        <p class="eyebrow">How I work</p>
+        <h2>The standard you can expect.</h2>
+      </div>
+      <ul class="promises">
+        <li><strong>A reply within one business day.</strong><span>Every message, every time. Being left waiting is where bad service starts.</span></li>
+        <li><strong>The truth, even when it's hard.</strong><span>You get the real picture, so your decisions are your own.</span></li>
+        <li><strong>A fix, not an excuse.</strong><span>If something goes wrong, I bring the solution with the news.</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="author" id="about">
+    <div class="wrap">
+      <div class="chips">
+        <span class="chip">PMP</span><span class="chip">PMI-ACP</span><span class="chip">Georgia real estate license</span>
+        <span class="chip">MBA, Kennesaw State</span><span class="chip">15 years in corporate</span><span class="chip">Mother of 3, grandmother of 5</span>
+      </div>
+      <p class="eyebrow">Meet the author</p>
+      <h2>Hi, I'm Raeschelle.</h2>
+      <p>I'm from Gulfport, Mississippi. I attended Alabama State University, moved to Atlanta in 2001, finished my bachelor's degree at Covenant College, and earned my MBA from Kennesaw State's Coles College of Business in 2009.</p>
+      <details>
+        <summary>Read my full story</summary>
+        <p>I wrote these books because I needed them first. I spent 15 years in corporate America learning the rules the hard way: the benefits nobody explained, the politics nobody warned me about, and the moments when keeping my own record protected my work.</p>
+      </details>
     </div>
   </section>
 </main>
@@ -223,8 +266,55 @@ footer .wrap { padding-block: 28px 40px; display: flex; justify-content: space-b
 <footer>
   <div class="wrap">
     <span>© 2026 Elevated Standard Group LLC</span>
-    <span>Real estate services through [brokerage name]</span>
+    <span>Real estate services through The Real McCoy, Mike McCoy, Broker</span>
   </div>
 </footer>
+
+<script>
+const IMG = { almost: "assets/i-almost-lost-her.jpg", hospital: "assets/hospital-advocacy-notes.jpg", girl: "assets/girl-corporate-america.jpg" };
+// One tap from each life moment to the exact Stan item. Links fill in after the Stan cleanup.
+const PATHS = [
+  { label: "I'm new in corporate", picks: [
+    { tag: "The book", title: "Girl, Let Me Tell You About Corporate America", text: "Understand the power. Get credit for your work. Decide your next move.", img: IMG.girl, cta: "Buy the book", href: "https://stan.store/theelevatedstandardco" } ] },
+  { label: "I'm thinking about the PMP", picks: [
+    { tag: "$499 · 15 seats · January", title: "PMP on the 4th Try", text: "A small weeknight exam-prep group. Reserve your seat before it fills.", cta: "Reserve a seat", href: "https://stan.store/theelevatedstandardco" } ] },
+  { label: "I failed the PMP before", picks: [
+    { tag: "$499 · 15 seats · January", title: "PMP on the 4th Try", text: "I passed on my fourth try. This group is built for people who refuse to quit.", cta: "Reserve a seat", href: "https://stan.store/theelevatedstandardco" } ] },
+  { label: "I want my real estate license", picks: [
+    { tag: "Georgia exam", title: "Georgia real estate flashcards", text: "Study the terms and math on your phone, five minutes at a time.", cta: "Get the flashcards", href: "https://stan.store/theelevatedstandardco" } ] },
+  { label: "I'm thinking about buying or selling", picks: [
+    { tag: "Georgia · trusted referrals", title: "Real estate, the trusted way", text: "Straight answers, and an introduction to an agent I trust.", cta: "Ask Rae", href: "https://stan.store/theelevatedstandardco" } ] },
+  { label: "Someone I love is in the hospital", picks: [
+    { tag: "Start free", title: "Hospital Advocacy Notes Sheet", text: "Instant download when you enter your email.", img: IMG.hospital, cta: "Get the free guide", href: "https://stan.store/theelevatedstandardco", line: true },
+    { tag: "Go deeper · $17", title: "I Almost Lost Her", text: "A story of maternal advocacy, fear, and a voice that would not go unheard.", img: IMG.almost, cta: "Buy the book", href: "https://stan.store/theelevatedstandardco" } ] },
+  { label: "Something feels off", picks: [ { tag: "Free guide", title: "Guide coming from Stan", text: "This guide's link and cover get added after the Stan cleanup.", cta: "See the guides", href: "https://stan.store/theelevatedstandardco", line: true } ] },
+  { label: "I can't tell if it's love", picks: [ { tag: "Free guide", title: "Guide coming from Stan", text: "This guide's link and cover get added after the Stan cleanup.", cta: "See the guides", href: "https://stan.store/theelevatedstandardco", line: true } ] },
+  { label: "I'm planning my first trip abroad", picks: [ { tag: "Free guide", title: "Guide coming from Stan", text: "This guide's link and cover get added after the Stan cleanup.", cta: "See the guides", href: "https://stan.store/theelevatedstandardco", line: true } ] },
+  { label: "I'm going to Jamaica", picks: [ { tag: "Free guide", title: "Guide coming from Stan", text: "This guide's link and cover get added after the Stan cleanup.", cta: "See the guides", href: "https://stan.store/theelevatedstandardco", line: true } ] },
+  { label: "I'm starting over", picks: [ { tag: "Free guide", title: "Guide coming from Stan", text: "This guide's link and cover get added after the Stan cleanup.", cta: "See the guides", href: "https://stan.store/theelevatedstandardco", line: true } ] }
+];
+const choices = document.getElementById("choices"), result = document.getElementById("result");
+function show(n) {
+  choices.querySelectorAll(".choice").forEach((b, k) => b.setAttribute("aria-pressed", k === n));
+  result.innerHTML = PATHS[n].picks.map(p => `
+    <div class="pick">
+      ${p.img ? `<img src="${p.img}" alt="">` : `<div class="ph" aria-hidden="true">ES</div>`}
+      <div class="pick-body">
+        <p class="eyebrow">${p.tag}</p>
+        <h3>${p.title}</h3>
+        <p class="soft">${p.text}</p>
+        <a class="pill ${p.line ? "line" : "solid"}" href="${p.href}" target="_blank" rel="noopener">${p.cta}</a>
+      </div>
+    </div>`).join("");
+}
+PATHS.forEach((p, n) => {
+  const b = document.createElement("button");
+  b.type = "button"; b.className = "choice"; b.id = "choice-" + n; b.textContent = p.label;
+  b.onclick = () => show(n);
+  choices.appendChild(b);
+});
+show(5);
+</script>
+
 </body>
 </html>
