@@ -1,6 +1,6 @@
 # Open Questions for Rae
 
-1. ~~Website and Stan links~~ received Oct 30 (see website-migration.md). Still needed: does elevatedstandardgroupllc.com point to the ChatGPT storefront or to a different site? Where was the domain bought?
+1. ~~Website and Stan links~~ received Oct 30 (see website-migration.md). Main site is hosted on GoDaddy; ChatGPT storefront is being closed. Still needed: confirm no live links (Stan, TikTok, YouTube bios) point to the ChatGPT storefront.
 2. Does Noah & Nyla have its own Stan store?
 3. **Current numbers:** email list size; followers on each channel; Stan sales so far; current monthly revenue.
 4. **What We Carry:** is it for kids, teens or adults? Which brand does it belong to? Is anything made yet (characters, script, pilot)?
