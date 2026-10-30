@@ -75,3 +75,18 @@ Replaces the older couple. Character sheet (use as the reference for every scene
 3. **Rae (5 min):** paste the script into ElevenLabs, export the voice.
 4. **Claude:** cuts scenes + voice + music + captions + "WHAT LIFE CARRIES" end card into the 30-second Short.
 5. **Rae:** upload, or Claude in Chrome uploads while she watches.
+
+## Market scan (Oct 30, 2026)
+**Who's winning:** Catana Comics (about 3M followers, warm two-character couple comics, sells NYT-bestselling books); Psych2Go (about 12–13M subscribers, animated relationship explainers, brand deal with the couples app Paired); The School of Life (about 6M, narrated love essays, sells books and workshops). Many new AI story channels sit near zero, so low effort doesn't work.
+
+**Rules:** YouTube's "inauthentic content" policy (July 2025) blocks earnings for template stories with only minor variations, and enforcement hits the whole channel. Clearly animated content doesn't need the AI disclosure; add "Illustrated with AI tools" in the description anyway. On TikTok, turn on the AI-generated label.
+
+**Episode template (30–45 sec):**
+1. 0–2s: hook line on screen and in the voice ("He texts every day. He's never asked me out.")
+2. 3 quick scenes, a new beat every 5–8 seconds
+3. The turn (her realization)
+4. One-line What Life Carries takeaway
+5. Comment prompt ("Would you text back?")
+
+**Month one:** 4–5 Shorts a week on YouTube, TikTok and Instagram. Two 3-part arcs ("Part 1/3") to test follows. One consistent narrator voice. Every script original, with music and openings varied. Each arc ties to a workbook chapter: pinned comment "The worksheet from this story is in my link," soft CTA every third episode. Measure "viewed vs. swiped away" and 3-second retention; drop hooks under about 70%.
+**Later:** pitch dating and couples apps for sponsorships.
