@@ -1,0 +1,50 @@
+{
+ "name": "SCL_2026-11-25_First_Thanksgiving_Without_Him",
+ "voice_id": "EXAVITQu4vr4xnSDxMaL",
+ "hook": "My first Thanksgiving\\Nwithout him.",
+ "cast": {
+  "Denise": "media/second-chapter-love/cast/denise.png"
+ },
+ "narration": "Tomorrow is Thanksgiving. And for the first time in twenty-six years, Denise is setting the table for one.\nShe pulls out the good plates anyway. The gold-rimmed ones. Because Michael always said, \"What are we saving them for?\"\nHis chair is still at the head of the table. She thought about moving it. She couldn't.\nEveryone keeps asking, \"Where are you going for the holiday?\" As if grief comes with an invitation.\nThe truth? She's tired of being strong. Tired of saying, \"I'm fine.\"\nSo this year, Denise makes herself one promise. She's going to cook his mac and cheese, put on her red dress, and sit at that table like the queen he married.\nNot to pretend he's here. To prove she still is.\nIf this is your first holiday without them, tell me. You don't have to sit at that table alone.",
+ "scenes": [
+  {
+   "lines": [
+    0,
+    1
+   ],
+   "image": "Evening. @Denise, glamorous and fit, wearing a soft cream sweater, carefully sets a beautiful Thanksgiving dining table with gold-rimmed china plates, autumn flowers and candles in her elegant home.",
+   "motion": "She gently sets a gold-rimmed plate down and smooths the napkin; candle flames flicker; slow camera push-in."
+  },
+  {
+   "lines": [
+    2
+   ],
+   "image": "Close-up from behind: @Denise rests her hand on the back of an empty high-backed chair at the head of the dining table, a man's reading glasses folded on the table. Warm, quiet, emotional.",
+   "motion": "Her fingers slowly tighten on the chair back; she lowers her head slightly; very slow camera drift."
+  },
+  {
+   "lines": [
+    3,
+    4
+   ],
+   "image": "@Denise, in a soft cream sweater with her natural curls up and gold hoops, leans against a bright marble kitchen island in the warm evening, holding her phone and looking at it with a tired, bittersweet expression. Well-lit by warm pendant lights, her face clearly visible.",
+   "motion": "She reads her phone, gives a small tired sigh, and sets it face down on the counter; subtle realistic motion; slow camera push-in.",
+   "still": true
+  },
+  {
+   "lines": [
+    5
+   ],
+   "image": "@Denise in a stunning fitted red dress and gold hoops pulls a golden baked mac and cheese out of the oven in her warm kitchen, a small determined smile. Glamorous, confident, curvy and fit.",
+   "motion": "She lifts the dish from the oven, steam rising, and smiles to herself; gentle camera movement."
+  },
+  {
+   "lines": [
+    6,
+    7
+   ],
+   "image": "@Denise in her fitted red dress sits regally at the beautifully set Thanksgiving table, candlelight on her face, chin lifted, a soft brave smile. The empty chair beside her. Elegant, powerful, emotional.",
+   "motion": "She takes a slow breath, lifts her chin and smiles softly; candles flicker; very slow camera push-in."
+  }
+ ]
+}

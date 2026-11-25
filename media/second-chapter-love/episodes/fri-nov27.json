@@ -1,0 +1,55 @@
+{
+ "name": "SCL_2026-11-27_Holidays_Over_Everyone_Went_Home",
+ "voice_id": "EXAVITQu4vr4xnSDxMaL",
+ "hook": "The holiday's over.\\NEveryone went home.",
+ "cast": {
+  "Carla": "media/second-chapter-love/cast/carla.png"
+ },
+ "narration": "The last car pulled out of the driveway at nine fourteen.\nCarla stood at the door and waved until the taillights were gone.\nFor twenty-two years, this was the part she liked best. The kids gone, the dishes in the sink, and him on the couch saying, \"We did good, babe.\"\nThis year... there's no one on the couch.\nShe washes every plate by hand. Slowly. Because when the kitchen is clean, the night is over. And then it's just her.\nNobody warns you about the day after. Everyone checks on you before the holiday. Nobody calls after.\nSo tonight, Carla does something new. She makes herself a plate of leftovers, puts it on the good china, lights the candle, and sits in his chair.\nNot to replace him. To remind herself: this is still her house. This is still her life.\nWhat do you do when everyone goes home?",
+ "scenes": [
+  {
+   "lines": [
+    0,
+    1
+   ],
+   "image": "Night. @Carla, glamorous and curvy in a fitted knit dress and a long cozy cardigan, stands in the open front doorway of her elegant suburban home, porch light on, waving goodbye as red car taillights disappear down the driveway.",
+   "motion": "She slowly lowers her waving hand as the taillights fade; her breath visible in the cold air; slow camera push-in."
+  },
+  {
+   "lines": [
+    2
+   ],
+   "image": "Warm, dreamy flashback of a joyful holiday evening: @Carla laughing in a busy kitchen with her grown adult children, while her handsome Black husband in his early 50s relaxes on the couch behind them smiling at her. Golden glow, string lights.",
+   "motion": "Family laughing and passing plates, lights twinkle, gentle handheld camera drift."
+  },
+  {
+   "lines": [
+    3,
+    4
+   ],
+   "image": "The same kitchen, now quiet at night. @Carla alone at the sink washing a dinner plate by hand, looking out the dark window, a single pendant light above her. Reflective, lonely mood.",
+   "motion": "She slowly rinses the plate, then pauses and looks out the dark window; soft steam; slow camera push-in."
+  },
+  {
+   "lines": [
+    5
+   ],
+   "reuse": 1
+  },
+  {
+   "lines": [
+    6
+   ],
+   "image": "@Carla at her elegant dining table places Thanksgiving leftovers on fine white china and lights a single tall candle, the rest of the long table empty. Candlelight on her face.",
+   "motion": "She gently lights the candle; the flame flickers to life and warms her face; slow camera drift."
+  },
+  {
+   "lines": [
+    7,
+    8
+   ],
+   "image": "@Carla sits in the large leather armchair at the head of the dining table, a plate on the good china and one candle in front of her, legs crossed, chin lifted, a small brave confident smile. Warm candlelight.",
+   "motion": "She takes a slow breath, lifts her chin and gives a small brave smile; candle flickers; very slow push-in."
+  }
+ ]
+}
