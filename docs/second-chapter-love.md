@@ -38,13 +38,14 @@ Rae's style references are saved in `media/second-chapter-love/style-references/
 - **Women over 40 glam** (`women-over-40-glam-grid.png`): sunglasses, gold hoops, sleek buns, natural curls, gray curls worn proudly, blazers. "I'm 60" and still glowing.
 - **Power style** (`pinstripe-suit-glam.jpg`): tailored suits, heels, polished and sexy-classy.
 - Always: clearly 45–60, glamorous, confident, sassy and sexy but classy. Never frail or "old," never 25.
-- Cast references used for consistency: `media/second-chapter-love/cast/` (Denise, Carla).
+- **The men** (`men-bald-salt-pepper-blazer.png`, `men-60-silver-glow.png`, `men-fit-braids-caribbean.png`): bald or silver, groomed salt-and-pepper beards, blazers and open collars, fit and muscular; one Caribbean brother with braids.
+- Cast references used for consistency: `media/second-chapter-love/cast/` (Denise, Carla, Marcus).
 
 ## The cast (reuse the same descriptions every time so faces stay the same)
 Make one character sheet per person in Runway, then use it as the reference image for every scene.
 - **Denise**, 52: dark-skinned African queen, natural curls, curvy, fit, gold hoops, elegant dresses. Widowed.
 - **Carla**, 48: short and curvy, long straight hair, stylish, confident. Divorced after 22 years.
-- **Marcus**, 58: tall, salt-and-pepper beard, broad shoulders, sweaters and blazers. Widower.
+- **Marcus**, 58: bald, groomed salt-and-pepper beard, fit and broad-shouldered, navy blazer and light blue shirt, still wears his gold wedding band. Widower (Diane, 3 years).
 - **Andre**, 54: bald head, fit and muscular, clean style, warm smile. Divorced, kids grown.
 - All of them: attractive, they work out, they dress well, young and vibrant at 45–60. Never frail or "old."
 

@@ -1,0 +1,52 @@
+{
+ "name": "SCL_2026-11-25_She_Invited_Him_To_Thanksgiving",
+ "voice_id": "EXAVITQu4vr4xnSDxMaL",
+ "hook": "She invited him to Thanksgiving.\\NWith her whole family.",
+ "cast": {
+  "Marcus": "media/second-chapter-love/cast/marcus.png"
+ },
+ "narration": "Marcus hasn't been to a family holiday since Diane passed. Three years.\nThen Lisa from church invited him to Thanksgiving. With her whole family.\nHe said yes, because she's kind. Because saying no felt rude.\nBut now it's Thanksgiving, and he's sitting in his truck in her driveway, engine still running.\nInside, her mother set a plate for him. Her sisters can't wait to meet the new man.\nAnd all he can think is: I don't want them thinking this is serious. I'm just being polite.\nSome days he still wears his ring. He still can't sleep on her side of the bed.\nGrief doesn't care that you're lonely. You can want company, and still not be ready to be anybody's someone.\nSo Marcus turns off the engine. He'll go in, eat, say thank you. And tonight, he'll tell Lisa the truth. Gently.\nHave you ever said yes just to be polite, when your heart wasn't ready?",
+ "scenes": [
+  {
+   "lines": [
+    0
+   ],
+   "image": "Early morning. @Marcus sits alone on the edge of his neatly made bed in a grey sweater, holding a framed wedding photo, his wedding band on his finger. Quiet, soft window light, the other side of the bed untouched.",
+   "motion": "He slowly runs his thumb over the photo frame and exhales; dust floats in the light; very slow camera push-in."
+  },
+  {
+   "lines": [
+    1,
+    2
+   ],
+   "image": "Bright Sunday afternoon outside a church. A warm, glamorous Black woman in her early 50s named Lisa, in an elegant burgundy coat and church hat, smiles and touches @Marcus's arm, inviting him. @Marcus, in a navy blazer, gives a polite, slightly hesitant smile.",
+   "motion": "She laughs warmly and squeezes his arm; he nods politely; gentle camera drift."
+  },
+  {
+   "lines": [
+    3,
+    4,
+    5
+   ],
+   "image": "Late afternoon. @Marcus sits in the driver's seat of his black pickup truck parked in a suburban driveway, hands on the wheel, looking at a warm, busy house where a big family gathers behind the glowing windows. He looks uneasy and conflicted. Shot through the windshield.",
+   "motion": "He grips the wheel, glances at the house, and looks down; family moving in the warm windows; slow push-in.",
+   "still": false
+  },
+  {
+   "lines": [
+    6,
+    7
+   ],
+   "image": "Close-up of @Marcus's hand resting on the steering wheel of his truck, his gold wedding band catching the late afternoon light; his blurred face in the background, eyes lowered.",
+   "motion": "His thumb slowly turns the wedding band; warm light flickers; subtle motion."
+  },
+  {
+   "lines": [
+    8,
+    9
+   ],
+   "image": "@Marcus, in his navy blazer, walks up the front steps of the warm family house holding a sweet potato pie, pausing at the door to take a breath, golden porch light, laughter glowing inside. Dignified, brave, a small kind smile.",
+   "motion": "He takes a deep breath, straightens his blazer, and reaches for the doorbell; warm light; slow camera push-in."
+  }
+ ]
+}
