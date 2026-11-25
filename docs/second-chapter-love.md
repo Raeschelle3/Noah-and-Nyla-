@@ -130,8 +130,14 @@ Make one character sheet per person in Runway, then use it as the reference imag
 
 ---
 
-## Production line (each episode)
-1. **Claude (Saturday):** writes the week's 3 episodes here (narration, titles, descriptions, Runway scene prompts) and checks last week's numbers.
-2. **Rae (weekend, about 30 min per episode):** makes the scenes in Runway from the prompts and records narration in ElevenLabs. Sends them in chat or drops them in the Drive folder.
-3. **Claude:** cuts scenes, narration, captions, music and end card into the Short.
-4. **Claude:** queues it in Metricool for 4 PM, for review. **Rae taps approve.**
+## Production line: Rae finds and approves, the agent does everything else
+**Rae's job:** (1) send content she finds (screenshots, links, ideas) in chat anytime; (2) say yes / change / not now to the finished videos.
+
+**The agent (every Saturday 1:47 PM Eastern, automatic):**
+1. Checks last week's numbers in Metricool.
+2. Picks the strongest themes from what Rae sent, writes the week's 3 episodes here.
+3. Makes the scenes and animates them (Runway API), makes the narration (ElevenLabs API), cuts the finished Short with captions, music and end card.
+4. Sends Rae the 3 finished videos to approve.
+5. After her yes, schedules them in Metricool for Mon/Wed/Fri 4 PM.
+
+**One-time setup still needed:** a real ElevenLabs API key (starts with `sk_`) and a Runway developer API key (starts with `key_`, from dev.runwayml.com, with API credits).
