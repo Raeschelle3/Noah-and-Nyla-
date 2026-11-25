@@ -32,6 +32,14 @@
 | 45–70s | The turn: one small, brave choice | They do one thing for themselves |
 | 70–90s | The question to the viewer | Character looks up; end card |
 
+## The look: images to draw from
+Rae's style references are saved in `media/second-chapter-love/style-references/`. Every cast member and scene should match them:
+- **Fit and curvy 50s** (`fit-curvy-50s-workout.png`): toned, strong, hourglass shape; she works out and it shows.
+- **Women over 40 glam** (`women-over-40-glam-grid.png`): sunglasses, gold hoops, sleek buns, natural curls, gray curls worn proudly, blazers. "I'm 60" and still glowing.
+- **Power style** (`pinstripe-suit-glam.jpg`): tailored suits, heels, polished and sexy-classy.
+- Always: clearly 45–60, glamorous, confident, sassy and sexy but classy. Never frail or "old," never 25.
+- Cast references used for consistency: `media/second-chapter-love/cast/` (Denise, Carla).
+
 ## The cast (reuse the same descriptions every time so faces stay the same)
 Make one character sheet per person in Runway, then use it as the reference image for every scene.
 - **Denise**, 52: dark-skinned African queen, natural curls, curvy, fit, gold hoops, elegant dresses. Widowed.
