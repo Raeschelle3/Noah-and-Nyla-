@@ -62,6 +62,40 @@ def narrate(spec, work):
     cache = f"{work}/align.json"
     if os.path.exists(cache) and os.path.exists(f"{work}/narr.mp3"):
         return json.load(open(cache))
+    if spec.get("runway_voice"):
+        # Runway preset voice, then ElevenLabs forced alignment for caption timing
+        text = spec["narration"]
+        lines = text.split("\n")
+        parts = []
+        for k, ln in enumerate(lines):  # one call per line keeps each request short, with a pause between
+            out = f"{work}/narr_{k}.mp3"
+            if not os.path.exists(out):
+                rw_task("/text_to_speech", {"model": "eleven_multilingual_v2", "promptText": ln,
+                        "voice": {"type": "runway-preset", "presetId": spec["runway_voice"]}}, out)
+            parts.append(out)
+        lst = f"{work}/narr_list.txt"
+        filt = "".join(f"[{k}:a]aresample=44100,apad=pad_dur=0.45[a{k}];" for k in range(len(parts)))
+        filt += "".join(f"[a{k}]" for k in range(len(parts))) + f"concat=n={len(parts)}:v=0:a=1[o]"
+        args = ["ffmpeg", "-v", "error", "-y"]
+        for pth in parts: args += ["-i", pth]
+        r = sh(args + ["-filter_complex", filt, "-map", "[o]", "-c:a", "libmp3lame", "-b:a", "160k", f"{work}/narr.mp3"])
+        if r.returncode: raise SystemExit(r.stderr)
+        fa = json.loads(sh(["curl", "-sS", "-X", "POST", "https://api.elevenlabs.io/v1/forced-alignment", "-H", EL_H[1],
+                            "-F", f"file=@{work}/narr.mp3", "--form-string", f"text={text}"]).stdout)
+        if "characters" not in fa:
+            raise SystemExit(f"alignment error: {fa}")
+        fc = fa["characters"]; j = 0; chars, st, en = [], [], []; last = 0.0
+        for c in text:  # map every character of the script onto the aligned characters
+            if j < len(fc) and fc[j]["text"] == c:
+                s, e = fc[j]["start"], fc[j]["end"]; j += 1
+            else:
+                s = e = last
+                if c != "\n" and j < len(fc) and fc[j]["text"] in ("\n", " "):
+                    j += 1
+            chars.append(c); st.append(s); en.append(e); last = e
+        al = {"characters": chars, "character_start_times_seconds": st, "character_end_times_seconds": en}
+        json.dump(al, open(cache, "w"))
+        return al
     d = json.loads(sh(["curl", "-sS", "-X", "POST", url] + EL_H + ["--data", json.dumps(body)]).stdout)
     if "alignment" in d:
         json.dump(d["alignment"], open(cache, "w"))
