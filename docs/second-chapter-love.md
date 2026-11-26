@@ -32,6 +32,9 @@
 | 45–70s | The turn: one small, brave choice | They do one thing for themselves |
 | 70–90s | The question to the viewer | Character looks up; end card |
 
+## Voice (locked by Rae, Nov 26)
+Narrator: **Mabel** (Runway preset, the narrator of Were We Family? and S1 Ep 1). Use on every episode. Renee's speaking voice was Sandra; Julian's was Frank. Rae's full production package lives in Google Drive: 'SECOND CHAPTER LOVE' master folder (character and voice guide, episode inventory, playbook).
+
 ## The look: images to draw from
 Rae's style references are saved in `media/second-chapter-love/style-references/`. Every cast member and scene should match them:
 - **Fit and curvy 50s** (`fit-curvy-50s-workout.png`): toned, strong, hourglass shape; she works out and it shows.
